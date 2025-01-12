@@ -1,4 +1,5 @@
 User-agent: * 
-Disallow: https://ari.se.net/config/*
+Disallow: https://blog.robeson.me/config/*
+Disallow: https://blog.robeson.me/*
 
-Sitemap: https://ari.se.net/sitemap.xml
+Sitemap: https://blog.robeson.me/sitemap.xml

@@ -1,7 +1,7 @@
 <!-- BEGIN ARISE ------------------------------
 Title:: "My Cool Post"
 
-Author:: "Spectra Secure"
+Author:: "saiboogu"
 Description:: "This cool post is an example of a post published in Arise"
 Language:: "en"
 Thumbnail:: "kanagawa.jpg"
@@ -12,7 +12,7 @@ Modified Date:: "2022-09-17"
 
 # Look, a cool post
 
-You can make cool posts on your Arise website!
+I'm borrowing the stock posts to get started.
 
 You can even use images, look:
 
