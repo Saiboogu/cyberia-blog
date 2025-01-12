@@ -2,11 +2,11 @@
 Title:: "My Cool Post"
 
 Author:: "saiboogu"
-Description:: "This cool post is an example of a post published in Arise"
+Description:: "An initial post testing out the blog"
 Language:: "en"
 Thumbnail:: "kanagawa.jpg"
-Published Date:: "2022-09-17"
-Modified Date:: "2022-09-17"
+Published Date:: "2025-01-11"
+Modified Date:: "2025-01-11"
 
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
@@ -17,3 +17,6 @@ I'm borrowing the stock posts to get started.
 You can even use images, look:
 
 ![The Great Wave off Kanagawa](kanagawa.jpg)
+
+**Now I'm playing with markdown**
+
