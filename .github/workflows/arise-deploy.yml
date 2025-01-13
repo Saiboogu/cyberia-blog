@@ -1,6 +1,7 @@
 # .github/workflows/arise-deploy.yml
 name: Deploy Arise to html branch
-
+permissions:
+  contents: write
 on:
   # Runs on pushes targeting the default branch
   # Running always, because I'm updating code to see the outcome when  it builds
