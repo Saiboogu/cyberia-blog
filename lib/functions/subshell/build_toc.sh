@@ -23,9 +23,9 @@ cat >> index.html <<EOF
         <p id="arise-toc">
         <table id="arise-toc-table">
         <tr class="arise-toc-tr">
-                <th class="arise-toc-th">Date</th>
-                <th class="arise-toc-th">Title</th>
-                <th class="arise-toc-th">Description</th>
+                <th class="arise-toc-th" style="width:10%">Date</th>
+                <th class="arise-toc-th" style="width:30%">Title</th>
+                <th class="arise-toc-th" style="width:60%">Description</th>
         </tr>
 EOF
 clear_metadata
