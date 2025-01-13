@@ -7,7 +7,7 @@ on:
   # Running always, because I'm updating code to see the outcome when  it builds
   ##Only runs when the push contains changes to the site source itself. No need to rebuild the site if it's just program files that have changed.
   push:
-    branches: ["blog-prod"]
+    branches: ["blog-prod, staging"]
   #  paths: ['arise-source/**']
 
   # Allows you to run this workflow manually from the Actions tab
