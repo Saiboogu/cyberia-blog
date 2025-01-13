@@ -1,7 +1,7 @@
 <!-- BEGIN ARISE ------------------------------
 Title:: "Bash Static Site Generator"
 
-Author:: "Spectra Secure"
+Author:: "Ben Robeson"
 Description:: "Arise is the most polished cloud-native static site generator written in Bash."
 Language:: "en"
 Thumbnail:: "arise-icon.png"
