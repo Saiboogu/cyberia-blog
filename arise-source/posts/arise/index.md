@@ -19,3 +19,12 @@ rss_hide:: "true"
 I've been meaning to build a new blog for years now, and the idea of static site generators struck me as the only sensible way to do things when I heard of them. When I found Arise, it seemed like a good fusion of things I knew and things I wanted to learn more. Posts are written in Markdown with Visual Studio Code, checked into Github and built with Github Actions. Cloudflare Pages hosts the prebuilt HTML files, retrieved automatically whenever the branch updates. 
 
 The current theme is the stock Arise theme, and definitely tickled my retrofuturism fancy. I'll try to tweak it as I learn more, so this comment may get dated. I'll work to update the blog as I find time, documenting new things I learn. 
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="e6a997e1-3eaa-491e-8e8c-01f71a9e593d"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>

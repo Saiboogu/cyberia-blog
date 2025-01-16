@@ -24,3 +24,11 @@ After a minute though, my mind stumbled towards the next image - the little holo
 
 Next thing you know, they've dragged the icon 3 miles away from the target and hit that transport button the second it turns green, and all of a sudden a lot of episodes with seemingly pointless hiking from the transport point makes more sense. 
 
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="e6a997e1-3eaa-491e-8e8c-01f71a9e593d"
+  data-page-id="{{ PAGE_ID }}"
+  data-page-url="{{ PAGE_URL }}"
+  data-page-title="{{ PAGE_TITLE }}"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
