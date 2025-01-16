@@ -2,7 +2,7 @@
 Title:: "Blog, Day 1"
 
 Author:: "Ben Robeson"
-Description:: "Arise is the most polished cloud-native static site generator written in Bash."
+Description:: "A new blog, day one"
 Language:: "en"
 Thumbnail:: "arise-icon.png"
 Published Date:: "2025-01-12"
