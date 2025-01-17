@@ -27,8 +27,8 @@ Next thing you know, they've dragged the icon 3 miles away from the target and h
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="e6a997e1-3eaa-491e-8e8c-01f71a9e593d"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
+  data-page-id="{{ post0002 }}"
+  data-page-url="{{ /posts/shower_thoughts_1/ }}"
+  data-page-title="{{ Shower Thoughts, #1 }}"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
