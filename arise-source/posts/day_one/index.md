@@ -20,11 +20,12 @@ I've been meaning to build a new blog for years now, and the idea of static site
 
 The current theme is the stock Arise theme, and definitely tickled my retrofuturism fancy. I'll try to tweak it as I learn more, so this comment may get dated. I'll work to update the blog as I find time, documenting new things I learn. 
 
+
 <div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="e6a997e1-3eaa-491e-8e8c-01f71a9e593d"
+  data-host="https://cusdis.robeson.me"
+  data-app-id="ea27a8f0-b4e2-471a-b7f9-0a350858acba"
   data-page-id="post0001"
   data-page-url="/posts/day_one/"
   data-page-title="Blog, Day 1"
 ></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>
