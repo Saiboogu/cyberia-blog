@@ -23,8 +23,8 @@ The current theme is the stock Arise theme, and definitely tickled my retrofutur
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="e6a997e1-3eaa-491e-8e8c-01f71a9e593d"
-  data-page-id="{{ post0001 }}"
-  data-page-url="{{ /posts/day_one/ }}"
-  data-page-title="{{ Blog, Day 1 }}"
+  data-page-id="post0001"
+  data-page-url="/posts/day_one/"
+  data-page-title="Blog, Day 1"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
