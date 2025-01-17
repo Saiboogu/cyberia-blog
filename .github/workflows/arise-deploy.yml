@@ -4,11 +4,10 @@ permissions:
   contents: write
 on:
   # Runs on pushes targeting the default branch
-  # Running always, because I'm updating code to see the outcome when  it builds
   ##Only runs when the push contains changes to the site source itself. No need to rebuild the site if it's just program files that have changed.
   push:
-    branches: ["blog-prod, staging"]
-  #  paths: ['arise-source/**']
+    branches: ["blog-prod"]
+    paths: ['arise-source/**']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
