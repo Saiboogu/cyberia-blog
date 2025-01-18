@@ -8,8 +8,8 @@ Thumbnail:: "arise-icon.png"
 Published Date:: "2025-01-12"
 Modified Date:: "2025-01-12"
 
-content_header:: "false"
-rss_hide:: "true"
+content_header:: "true"
+rss_hide:: "false"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # New Blog, Day One
