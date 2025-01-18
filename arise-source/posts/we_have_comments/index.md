@@ -11,16 +11,11 @@ Modified Date:: "2025-01-17"
 content_header:: "true"
 rss_hide:: "false"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
-<attribution xmlns:dc="http://purl.org/dc/elements/1.1/">
-	<dc:creator>Font Awesome</dc:creator>
-	<dc:title>Font Awesome 5 regular comments</dc:title>
-	<dc:rights>https://creativecommons.org/licenses/by/4.0/</dc:rights>
-	<dc:identifier>https://commons.wikimedia.org/w/index.php?curid=71507091</dc:identifier>
-	<dc:type>StillImage</dc:type>
-</attribution>
-# Comment away.. 
 
+# Comment away.. 
+<img src="Font_Awesome_5_regular_comments.svg" title='"Font Awesome 5 regular comments" by Font Awesome is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/?ref=openverse.' width="64" height="64" style="float:left;margin:20">
 Bit of a "Build it, and they (might) come (eventually). That's fine, this is all practice and education.
+<p/>
 
 I thought I would toss something like Disqus on here, but I remembered to search "self hosted" first and found [Cusdis](https://github.com/djyde/cusdis). I tried their hosted version just long enough to see it was workable, then put up a self hosted instance so I could dig in and start tweaking it. 
 
