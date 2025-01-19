@@ -1,2 +1,3 @@
 /*
   Access-Control-Allow-Origin: https://cusdis.robeson.me
+  Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS
