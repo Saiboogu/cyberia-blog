@@ -61,10 +61,12 @@
         </nav>
         <!-- End Navigation -->
 
-        <!-- Quicklink Prefecthing-->
+        <!-- Quicklink Prefetching-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.0.0/quicklink.min.js"></script>
         <script>
-                quicklink.listen();
+                window.addEventListener('load', () => {
+                  quicklink.listen();
+                });
         </script>
 
         <script>
