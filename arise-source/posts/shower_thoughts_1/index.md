@@ -4,7 +4,7 @@ Title:: "Shower Thoughts, #1"
 Author:: "Ben Robeson"
 Description:: "Small random thoughts that have no better home. Today - Transporter operators as video game players."
 Language:: "en"
-Thumbnail:: "cantplacemtn.jpg"
+Thumbnail:: "cantplacemtn.webp"
 Published Date:: "2025-01-12"
 Modified Date:: "2025-01-12"
 
