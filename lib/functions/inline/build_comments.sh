@@ -19,7 +19,7 @@ build_comments() {
                 comment_block="$(cat $1)"
 
                 comment_block="${comment_block//\{\{title\}\}/"$title"}"
-                comment_block="${comment_block//\{\{canonical_url\}\}/"$canonical_url"}"
+                comment_block="${comment_block//\{\{base_url\}\}/"$base_url"}"
 
 
                 echo "$comment_block" >> $1
