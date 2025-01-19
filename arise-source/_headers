@@ -14,8 +14,8 @@
 /*.webp
   Cache-Control: max-age=31536000
 /*.css
-  Cache-Control: max-age=2592000
+  Cache-Control: max-age=31536000
 /*.js
-  Cache-Control: max-age=604800
+  Cache-Control: max-age=31536000
 /posts/*
   Cache-Control: max-age=86400
