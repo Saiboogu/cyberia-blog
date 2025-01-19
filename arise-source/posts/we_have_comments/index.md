@@ -13,7 +13,7 @@ rss_hide:: "false"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # Comment away.. 
-<img src="Font_Awesome_5_regular_comments.svg" title='"Font Awesome 5 regular comments" by Font Awesome is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/?ref=openverse.' width="64" height="64" style="float:left;margin:20">
+<img src="Font_Awesome_5_regular_comments.svg" title='"Font Awesome 5 regular comments" by Font Awesome is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/?ref=openverse.' width="64" height="64" style="float:left;margin:50">
 Bit of a "Build it, and they (might) come (eventually). That's fine, this is all practice and education.
 <p/>
 
@@ -24,8 +24,8 @@ Had to tweak the iframe heigth already, it was claustrophobically short and I di
 <div id="cusdis_thread"
   data-host="https://cusdis.robeson.me"
   data-app-id="ea27a8f0-b4e2-471a-b7f9-0a350858acba"
-  data-page-id="post0003"
-  data-page-url="/posts/we_have_comments/"
-  data-page-title="We Have Comments"
+  data-page-id="{{canonical_url}}"
+  data-page-url="{{canonical_url}}"
+  data-page-title="{{title}}"
 ></div>
 <script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>
