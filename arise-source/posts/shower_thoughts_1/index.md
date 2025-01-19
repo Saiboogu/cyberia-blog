@@ -10,6 +10,7 @@ Modified Date:: "2025-01-12"
 
 content_header:: "true"
 rss_hide:: "false"
+comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # How **did** the transporter chief make it work?
@@ -24,11 +25,3 @@ After a minute though, my mind stumbled towards the next image - the little holo
 
 Next thing you know, they've dragged the icon 3 miles away from the target and hit that transport button the second it turns green, and all of a sudden a lot of episodes with seemingly pointless hiking from the transport point makes more sense. 
 
-<div id="cusdis_thread"
-  data-host="https://cusdis.robeson.me"
-  data-app-id="ea27a8f0-b4e2-471a-b7f9-0a350858acba"
-  data-page-id="{{canonical_url}}"
-  data-page-url="{{canonical_url}}"
-  data-page-title="{{title}}"
-></div>
-<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>

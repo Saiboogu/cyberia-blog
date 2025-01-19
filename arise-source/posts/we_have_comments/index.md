@@ -10,6 +10,7 @@ Modified Date:: "2025-01-17"
 
 content_header:: "true"
 rss_hide:: "false"
+comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # Comment away.. 
@@ -21,11 +22,3 @@ I thought I would toss something like Disqus on here, but I remembered to search
 
 Had to tweak the iframe heigth already, it was claustrophobically short and I didn't like the CSS hacks I was using to try and make it taller from Arise instead of Cusdis. 
 
-<div id="cusdis_thread"
-  data-host="https://cusdis.robeson.me"
-  data-app-id="ea27a8f0-b4e2-471a-b7f9-0a350858acba"
-  data-page-id="{{canonical_url}}"
-  data-page-url="{{canonical_url}}"
-  data-page-title="{{title}}"
-></div>
-<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>

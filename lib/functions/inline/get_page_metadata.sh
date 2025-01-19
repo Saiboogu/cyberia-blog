@@ -84,6 +84,12 @@ get_page_metadata() {
                 if [[ $rss_hide != "true" ]]; then
                         rss_hide="false"
                 fi
+
+                # comments default: false
+                comments=$(grep "comments::" <<< $metadata | cut -d '"' -f2)
+                if [[ $comments != "true" ]]; then
+                        comments="false"
+                fi
                 
                 # URL
                 relative_url="$(realpath $(dirname $1) | sed 's@.*arise-out@@g')"'/'

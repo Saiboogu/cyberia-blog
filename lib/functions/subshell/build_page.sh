@@ -21,11 +21,17 @@ if [[ $is_toc == "true" ]]; then
 elif [[ $process_markdown == "false" ]]; then
         build_header index.html
         cat $page | sed -e '1,/END ARISE/d' | cat >> index.html
+        if [[ $comments == "true" ]]; then
+                build_comments index.html
+        fi
         build_footer index.html
 else
         build_header index.html
         # Grab everything after the Arise metadata block, run it through pandoc to convert to html, and append to our file in progress
         cat $page | sed -e '1,/END ARISE/d' | pandoc -f markdown -t html >> index.html
+                if [[ $comments == "true" ]]; then
+                build_comments index.html
+        fi
         build_footer index.html
 fi
 
