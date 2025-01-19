@@ -15,3 +15,5 @@
   Cache-Control: max-age=2592000
 /*.js
   Cache-Control: max-age=604800
+/posts/*
+  Cache-Control: max-age=86400
