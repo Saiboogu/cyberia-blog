@@ -61,6 +61,10 @@
         </nav>
         <!-- End Navigation -->
 
+        <!-- Prefetching likely pages -->
+        <link rel="prefetch" href="/posts" as="document">
+        <link rel="prefetch" href="/" as="document">
+
         <script>
                 /*to prevent Firefox FOUC, this must be here*/
                 let FF_FOUC_FIX;
