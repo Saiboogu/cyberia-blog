@@ -1,3 +1,19 @@
 /*
   Access-Control-Allow-Origin: https://cusdis.robeson.me
   Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS
+/*.svg
+  Cache-Control: max-age=31536000
+/*.png
+  Cache-Control: max-age=31536000
+/*.jp*g
+  Cache-Control: max-age=31536000
+/*.gif
+  Cache-Control: max-age=31536000
+/*.ico
+  Cache-Control: max-age=31536000
+/*.css
+  Cache-Control: max-age=2592000
+/*.js
+  Cache-Control: max-age=604800
+/posts/*
+  Cache-Control: max-age=86400
