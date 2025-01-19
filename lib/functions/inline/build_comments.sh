@@ -22,7 +22,7 @@ build_comments() {
                 comment_block="${comment_block//\{\{canonical_url\}\}/"$canonical_url"}"
 
 
-                echo "$comment_block" > $1
+                echo "$comment_block" >> $1
                 comment_block=""
         }
 }
