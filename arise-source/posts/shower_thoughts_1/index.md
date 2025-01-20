@@ -21,7 +21,7 @@ I grew up with TOS's levers and knobs, and TNG's LCARS touchpanels, but I'm not 
 
 After a minute though, my mind stumbled towards the next image - the little holo representation of the away team, shaded red because the computer fears they will clip into the structure if you beam them there. The transporter chief drags them a little to the right, a little to the left, looking for that icon to turn green so he can hit the button and get the away team... away on there mission. 
 
-<img src=cantplacemtn.webp width="570px" height="320px" title="A sunset lit, orange mountain peak glows behind closer, darker peaks, with the caption 'Can't place the mountain here.' It resembles the red shaded building icon that video game players see in construction games, when the game has determined (for sometimes confusing reasons) that you can't build there.">
+<img src=cantplacemtn.webp width="570px" height="321px" title="A sunset lit, orange mountain peak glows behind closer, darker peaks, with the caption 'Can't place the mountain here.' It resembles the red shaded building icon that video game players see in construction games, when the game has determined (for sometimes confusing reasons) that you can't build there.">
 
 Next thing you know, they've dragged the icon 3 miles away from the target and hit that transport button the second it turns green, and all of a sudden a lot of episodes with seemingly pointless hiking from the transport point makes more sense. 
 
