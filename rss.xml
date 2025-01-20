@@ -13,13 +13,20 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Mon, 20 Jan 2025 03:19:34 +0000</lastBuildDate>
+<lastBuildDate>Mon, 20 Jan 2025 17:05:31 +0000</lastBuildDate>
         <item>
         <title>We Have Comments</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Blog improvements - Adding self hosted comments.</description>
         <link>https://blog.robeson.me/posts/we_have_comments/</link>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>The Blog</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Blog - So far</description>
+        <link>https://blog.robeson.me/posts/the_blog/</link>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Blog, Day 1</title>
