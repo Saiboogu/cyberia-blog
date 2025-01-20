@@ -28,7 +28,7 @@ As I already mentioned, the blog is run with [Arise](https://github.com/spectras
 
 ****
 
-<img height="131px" width="500px" src="github_activity.webp" alt="A grid of all the days in a year. All of them are black except the last week which is green">
+<img height="131px" width="500px" src="github_activity.webp?v0" alt="A grid of all the days in a year. All of them are black except the last week which is green">
 
 And it does great things for my Github contributions chart. 
 
