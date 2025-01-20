@@ -1,8 +1,8 @@
 <!-- BEGIN ARISE ------------------------------
 Title:: "Index: Posts"
 
-Author:: ""
-Description:: "A collection of sample posts build with Arise"
+Author:: "Ben Robeson"
+Description:: "My posts"
 Language:: "en"
 Thumbnail:: ""
 Published Date:: ""
