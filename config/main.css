@@ -3,12 +3,10 @@
 
 /* Core Styling */
 html * {
-        font-family: "Orbitron", serif;
+        font-family: "Space Grotesk", serif;
         font-optical-sizing: auto;
-        font-weight: 400;
+        font-weight: 300;
         font-style: normal;
-        font-variation-settings:
-          "wdth" 100;
 }
 body{
         margin:40px auto;
@@ -27,36 +25,42 @@ body{
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 900
 
-.tektur-body {
+// <uniquifier>: Use a unique and descriptive class name
+
+.tektur-<uniquifier> {
   font-family: "Tektur", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 75;
+}
+
+
+.syne-mono-regular {
+  font-family: "Syne Mono", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 900
 
 .orbitron-<uniquifier> {
   font-family: "Orbitron", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
 
 .space-grotesk-<uniquifier> {
   font-family: "Space Grotesk", serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-} */
-
+}
 /*** Post styling. This section is for defining markup classes to make it easier to write prettier posts. ***/
 
 img {
@@ -80,7 +84,9 @@ code {
         padding-top:1px;
         padding-bottom:1px;
         color:#65f85a;
-		font-family:monospace;
+        font-family: "Syne Mono", serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 pre {
@@ -127,8 +133,10 @@ h1{
         line-height:1.2;
         font-family: "Tektur", serif;
         font-optical-sizing: auto;
-        font-weight: 300;
+        font-weight: 500;
         font-style: normal;
+        font-variation-settings:
+          "wdth" 75;
 }
 
 h2,h3{
@@ -138,6 +146,12 @@ h2,h3{
 
 /* Style for inline dates. These are configured via a separate include file in /config/content_header.html. See notes on Arise page creation for more details. */
 .date { 
+        font-family: "Tektur", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 75;
         padding-bottom:0;
         margin-bottom:0;
         font-size:14px;
@@ -169,6 +183,10 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
+        font-family: "Orbitron", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
         padding-right:10px;
         border-top:1px solid #65f85a;
         border-bottom:1px solid #65f85a;
