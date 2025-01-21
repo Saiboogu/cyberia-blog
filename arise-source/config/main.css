@@ -3,7 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "Tektur", serif;
+        font-family: "Orbitron", serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -125,7 +125,7 @@ a {
 
 h1{
         line-height:1.2;
-        font-family: "Space Grotesk", serif;
+        font-family: "Tektur", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
