@@ -4,7 +4,7 @@ Title:: "We Have Comments"
 Author:: "Ben Robeson"
 Description:: "Blog improvements - Adding self hosted comments."
 Language:: "en"
-Thumbnail:: "Font_Awesome_5_regular_comments.svg"
+Thumbnail:: "comments.svg"
 Published Date:: "2025-01-17"
 Modified Date:: "2025-01-17"
 
@@ -14,7 +14,7 @@ comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # Comment away.. 
-<img src="Font_Awesome_5_regular_comments.svg" title='"Font Awesome 5 regular comments" by Font Awesome is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/?ref=openverse.' width="64" height="64" style="float:left;margin:50">
+<img src="comments.svg" width="64" height="64" style="float:left;margin:50">
 Bit of a "Build it, and they (might) come (eventually). That's fine, this is all practice and education.
 <p/>
 
