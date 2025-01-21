@@ -1,6 +1,6 @@
-# /*
-#   Access-Control-Allow-Origin: https://cusdis.robeson.me
-#   Access-Control-Allow-Methods: GET, POST, HEAD, OPTIONS
+/*
+  ! Access-Control-Allow-Origin
+
 /*.svg
   Cache-Control: max-age=31536000
 /*.png

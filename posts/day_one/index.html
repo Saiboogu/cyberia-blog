@@ -34,6 +34,14 @@
         <!-- Mobile Viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Firefox FOUC Fix? -->
+        <script type="text/javascript">
+                var elm=document.getElementsByTagName("html")[0];
+                elm.style.display="none";
+                document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+        </script>
+        <!-- End Firefox FOUC Fix? -->
+
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/config/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/config/favicon/favicon-32x32.png">
@@ -76,10 +84,10 @@
         <!-- End Plausible Analytics -->
 
         <! -- Fixing Firefox FOUC -->
-        <script>
+        <!-- <script>
                 /*to prevent Firefox FOUC, this must be here*/
                 let FF_FOUC_FIX;
-        </script>
+        </script> -->
         <!-- End Fixing Firefox FOUC -->
 </head>
 
