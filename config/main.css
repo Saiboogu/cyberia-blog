@@ -3,7 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "Space Grotesk", serif;
+        font-family: "space_grotesklight", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -44,7 +44,7 @@ code {
         padding-top:1px;
         padding-bottom:1px;
         color:#65f85a;
-        font-family: "Syne Mono", "Courier New";
+        font-family: "syne_monoregular", "monospace";
         font-weight: 400;
         font-style: normal;
 }
@@ -91,7 +91,7 @@ a {
 
 h1{
         line-height:1.2;
-        font-family: "Tektur", serif;
+        font-family: "tekturregular", serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
@@ -106,7 +106,7 @@ h2,h3{
 
 /* Style for inline dates. These are configured via a separate include file in /config/content_header.html. See notes on Arise page creation for more details. */
 .date { 
-        font-family: "Syne Mono", "Courier New";
+        font-family: "syne_monoregular", "monospace";
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -143,7 +143,7 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
-        font-family: "Syne Mono", serif;
+        font-family: "syne_monoregular", serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
