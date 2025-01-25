@@ -9,7 +9,8 @@ Published Date:: "2025-01-24"
 Modified Date:: "2025-01-24"
 
 content_header:: "false"
-rss_hide:: "true"
+rss_hide:: "false"
+comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # Privacy Information
