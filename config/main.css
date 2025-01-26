@@ -3,7 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "Space Grotesk", serif;
+        font-family: "Open-Dyslexic", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -31,7 +31,26 @@ body{
   'opsz' 24
 }
 
+@font-face {
 
+        font-family: 'Open-Dyslexic';
+        src: url('/config/fonts/OpenDyslexic-Regular.woff2') format('woff2'),
+             url('/config/fonts/OpenDyslexic-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      
+}
+      
+      
+@font-face {
+
+        font-family: 'Open-Dyslexic';
+        src: url('/config/fonts/OpenDyslexic-Bold.woff2') format('woff2'),
+             url('/config/fonts/OpenDyslexic-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+
+}
 
 
 /*** Post styling. This section is for defining markup classes to make it easier to write prettier posts. ***/
@@ -156,7 +175,7 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
-        font-family: "Orbitron", serif;
+        font-family: "Tektur", serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
