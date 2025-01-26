@@ -3,7 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "Open-Dyslexic", serif;
+        font-family: "Tektur", serif;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -31,27 +31,6 @@ body{
   'opsz' 24
 }
 
-@font-face {
-
-        font-family: 'Open-Dyslexic';
-        src: url('/config/fonts/OpenDyslexic-Regular.woff2') format('woff2'),
-             url('/config/fonts/OpenDyslexic-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-      
-}
-      
-      
-@font-face {
-
-        font-family: 'Open-Dyslexic';
-        src: url('/config/fonts/OpenDyslexic-Bold.woff2') format('woff2'),
-             url('/config/fonts/OpenDyslexic-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-
-}
-
 
 /*** Post styling. This section is for defining markup classes to make it easier to write prettier posts. ***/
 
@@ -76,7 +55,7 @@ code {
         padding-top:1px;
         padding-bottom:1px;
         color:#65f85a;
-        font-family: "Syne Mono", serif;
+        font-family: "Syne Mono", 'Courier New', Courier, monospace;
         font-weight: 400;
         font-style: normal;
 }
@@ -138,7 +117,7 @@ h2,h3{
 
 /* Style for inline dates. These are configured via a separate include file in /config/content_header.html. See notes on Arise page creation for more details. */
 .date { 
-        font-family: "Tektur", serif;
+        font-family: "Syne Mono", monospace;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
