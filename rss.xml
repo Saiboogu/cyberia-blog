@@ -13,7 +13,7 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Mon, 27 Jan 2025 16:50:54 +0000</lastBuildDate>
+<lastBuildDate>Mon, 27 Jan 2025 18:57:18 +0000</lastBuildDate>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -32,22 +32,22 @@
         <title>Blog, Day 1</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>A new blog, day one</description>
+        <link>https://blog.robeson.me/posts/recommendations_trek_001/</link>
+        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Blog, Day 1</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>A new blog, day one</description>
         <link>https://blog.robeson.me/posts/day_one/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>The Blog</title>
+        <title>Recommendations: Irreverent Star Trek Reviewers</title>
         <dc:creator>Ben Robeson</dc:creator>
-        <description>Blog - So far</description>
+        <description>Some of my favorite Star Trek YouTubers.</description>
         <link>https://blog.robeson.me/posts/the_blog/</link>
-        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-        </item>
-        <item>
-        <title>Shower Thoughts, #1</title>
-        <dc:creator>Ben Robeson</dc:creator>
-        <description>Transporter operators as video game players.</description>
-        <link>https://blog.robeson.me/posts/shower_thoughts_1/</link>
-        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>We Have Comments</title>
@@ -55,6 +55,13 @@
         <description>Blog improvements - Adding self hosted comments.</description>
         <link>https://blog.robeson.me/posts/we_have_comments/</link>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Shower Thoughts, #1</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Transporter operators as video game players.</description>
+        <link>https://blog.robeson.me/posts/shower_thoughts_1_001/</link>
+        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
 </rss>
