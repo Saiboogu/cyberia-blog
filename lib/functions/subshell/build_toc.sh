@@ -34,7 +34,7 @@ clear_metadata
 toc_tmp="arise-toc-$RANDOM.tmp"
 find . -mindepth 2 -maxdepth 2 -type f -name 'index.md' | while read fname; do
 get_page_metadata $fname
-echo '<tr class="arise-toc-tr"><td class="arise-toc-td">'"$published_date"'</td><td class="arise-toc-td"><a style='font-family:"Syne Mono", "Courier New", Courier, monospace;' href="'"$relative_url"'">'"$title"'</a></td><td class="arise-toc-td">'"$description"'</td></tr>' >> $toc_tmp
+echo '<tr class="arise-toc-tr"><td class="arise-toc-td">'"$published_date"'</td><td class="arise-toc-td"><a style="font-family: syne-mono-regular, Courier, monospace;" href="'"$relative_url"'">'"$title"'</a></td><td class="arise-toc-td">'"$description"'</td></tr>' >> $toc_tmp
 clear_metadata
 done
 
