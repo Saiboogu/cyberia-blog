@@ -3,10 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "Tektur", serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: normal;
+        font-family: "smooch-sans-regular", sans-serif;
 }
 body{
         margin:40px auto;
@@ -31,6 +28,27 @@ body{
   'opsz' 24
 }
 
+.syne-mono-regular {
+        font-family: "Syne Mono", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+      
+
+.audiowide-regular {
+        font-family: "Audiowide", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+/** <weight>: Use a value from 100 to 900 */
+.smooch-sans-regular {
+  font-family: "Smooch Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /*** Post styling. This section is for defining markup classes to make it easier to write prettier posts. ***/
 
@@ -102,15 +120,12 @@ a {
 
 h1{
         line-height:1.2;
-        font-family: "Tektur", serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        font-variation-settings:
-          "wdth" 75;
+        font-family: "Audiowide", serif;
+
 }
 
 h2,h3{
+        font-family: "Audiowide", serif;
         padding-top:24px;
         line-height:1.2
 }
@@ -154,10 +169,7 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
-        font-family: "Tektur", serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
+        font-family: "Syne Mono", monospace;
         padding-right:10px;
         border-top:1px solid #65f85a;
         border-bottom:1px solid #65f85a;
@@ -185,6 +197,7 @@ text-decoration:none;
 
 /* Arise Index Style */
 .arise-toc-td {
+  font-family: "Syne Mono", monospace;
   border-width: 1px;
   border-color: #65f85a;
   border-top-style: solid;
