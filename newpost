@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read -p "New Blog Slug: " userInput
+
+cp -r arise-source/config/new_post_template arise-source/posts/$userInput
+sed -i arise-source/posts/$userInput/index.md -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
+
+ 
