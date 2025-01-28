@@ -13,7 +13,7 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Tue, 28 Jan 2025 01:39:46 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jan 2025 01:48:32 +0000</lastBuildDate>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -60,7 +60,7 @@
         <title>Shower Thoughts, #1</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Transporter operators as video game players.</description>
-        <link>https://blog.robeson.me/posts/shower_thoughts_1_001/</link>
+        <link>https://blog.robeson.me/posts/shower_thoughts_001/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
