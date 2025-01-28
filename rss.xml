@@ -13,7 +13,7 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Mon, 27 Jan 2025 19:05:45 +0000</lastBuildDate>
+<lastBuildDate>Tue, 28 Jan 2025 00:55:48 +0000</lastBuildDate>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -29,11 +29,11 @@
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>Blog, Day 1</title>
+        <title>Recommendations: Irreverent Star Trek Reviewers</title>
         <dc:creator>Ben Robeson</dc:creator>
-        <description>A new blog, day one</description>
+        <description>Some of my favorite Star Trek YouTubers.</description>
         <link>https://blog.robeson.me/posts/recommendations_trek_001/</link>
-        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Blog, Day 1</title>
@@ -43,11 +43,11 @@
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>Recommendations: Irreverent Star Trek Reviewers</title>
+        <title>The Blog</title>
         <dc:creator>Ben Robeson</dc:creator>
-        <description>Some of my favorite Star Trek YouTubers.</description>
+        <description>Blog - So far</description>
         <link>https://blog.robeson.me/posts/the_blog/</link>
-        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>We Have Comments</title>
