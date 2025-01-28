@@ -169,7 +169,7 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
-        font-family: "Syne Mono", monospace;
+        font-family:"Syne Mono",monospace;
         padding-right:10px;
         border-top:1px solid #65f85a;
         border-bottom:1px solid #65f85a;
@@ -177,8 +177,9 @@ h2,h3{
         text-align:center;
 }
 .topbar a {
-color:#65f85a;
-text-decoration:none;
+        font-family:"Syne Mono",monospace;
+        color:#65f85a;
+        text-decoration:none;
 }
 
 /* Site footer styling */
