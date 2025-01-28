@@ -1,0 +1,22 @@
+<!-- BEGIN ARISE ------------------------------
+Title:: "Short Title"
+
+Author:: "Ben Robeson"
+Description:: "Longer title"
+Language:: "en"
+Thumbnail:: "arise-icon.png"
+Published Date:: "2025-01-12"
+Modified Date:: "2025-01-12"
+
+content_header:: "true"
+toc:: "false"
+rss_hide:: "false"
+comments:: "true"
+---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
+
+# H1 Blog Title
+
+
+New Page Documentation: https://github.com/Saiboogu/arise-blog/tree/blog-prod/docs/guides/creating-arise-pages
+
+
