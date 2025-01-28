@@ -215,17 +215,25 @@ h2,h3{
   padding-right: 10px;
   padding-bottom: 5px
 }
-@media only screen and (max-width: 600px) {
-        .arise-toc-td-desc{
-            display: none;
-        }
-}
+
 .arise-toc-th {
   padding-bottom: 20px;
   border-bottom: 1px;
   border-bottom-style: solid;
 }
-
+.arise-toc-th-desc {
+  padding-bottom: 20px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+}
+@media only screen and (max-width: 600px) {
+        .arise-toc-td-desc{
+            display: none;
+        }
+        .arise-toc-th-desc{
+            display: none;
+        }
+}
 /********************************/
 /** Cusdis comment section **/
 /** Commented because I'm moving this to the cusdis.es.js file **/
