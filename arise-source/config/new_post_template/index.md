@@ -1,5 +1,5 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: "Short Title"
+Title:: "{{title}}"
 
 Author:: "Ben Robeson"
 Description:: "Longer title"

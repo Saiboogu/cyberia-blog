@@ -1,8 +1,24 @@
 #!/bin/bash
 
-read -p "New Blog Slug: " userInput
+# Check arguments for post title, otherwise prompt user
+if [ -z "$1" ]; then
+  read -p "New Blog Title: " post_title
+else
+  post_title=$1
+fi
 
-cp -r arise-source/config/new_post_template arise-source/posts/$userInput
-sed -i arise-source/posts/$userInput/index.md -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
+# Create lowercase, underscored version of title for folder name
+post_slug=$(echo $post_title | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
 
+# Prompt user to accept this automatic slug by pressing enter, or enter a new one
+read -p "Post Slug: $post_slug (press enter to accept, or enter a new one): " new_slug
+if [ -n "$new_slug" ]; then
+    post_slug=$new_slug
+fi
+
+# Create new post folder and copy template files
+cp -r arise-source/config/new_post_template arise-source/posts/$post_slug
+# Set date and title in post markdown file
+sed -i arise-source/posts/$post_slug/index.md -e "s/{{title}}/$(echo $post_title)/g"
+sed -i arise-source/posts/$post_slug/index.md -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
  
