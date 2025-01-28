@@ -25,7 +25,7 @@ cat >> index.html <<EOF
         <tr class="arise-toc-tr">
                 <th class="arise-toc-th" style="width:10%">Date</th>
                 <th class="arise-toc-th" style="width:30%">Title</th>
-                <th class="arise-toc-th" style="width:60%">Description</th>
+                <th class="arise-toc-th-desc" style="width:60%">Description</th>
         </tr>
 EOF
 clear_metadata
