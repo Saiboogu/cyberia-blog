@@ -25,7 +25,7 @@ echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> $sitemap
 find . -type d -not \( -path ./config -prune \) | while read fname; do
         
         # Rewrite the local path from the find command as the live web URL as the <loc> tag for the sitemap standard
-        echo -e '<url>\n<loc>'"$base_url"'/'"$(echo $fname | sed -n -e 's|\.\/||p')"'/</loc>' >> $sitemap
+        echo -e '<url>\n<loc>'"$base_url"'/'"$(echo $fname | sed -n -e 's|\.\/||p' | sed '/^$/!s/$/\//')"'</loc>' >> $sitemap
         
         # If this page contains a Arise-style index page with a date modified, include that as a <lastmod> for the sitemap standard
         modified_date=''
