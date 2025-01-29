@@ -13,7 +13,8 @@ post_slug=$(echo $post_title | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
 # Prompt user to accept this automatic slug by pressing enter, or enter a new one
 read -p "Post Slug: $post_slug (press enter to accept, or enter a new one): " new_slug
 if [ -n "$new_slug" ]; then
-    post_slug=$new_slug
+    # Make sure the new slug is lowercase and has underscores instead of spaces
+    post_slug=$(echo $new_slug | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
 fi
 
 # Create new post folder and copy template files
