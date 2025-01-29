@@ -6,7 +6,7 @@ Description:: "Privacy details for the website."
 Language:: "en"
 Thumbnail:: "shield-question.svg"
 Published Date:: "2025-01-24"
-Modified Date:: "2025-01-24"
+Modified Date:: "2025-01-28"
 
 content_header:: "false"
 rss_hide:: "false"
