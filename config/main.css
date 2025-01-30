@@ -29,7 +29,7 @@ body{
 
       
       /* retro stuff */
-        font-family: "Courier New", monospace;
+        font-family: "anonymous-pro-regular", monospace;
         font-size: 14px;
         line-height:1;
         text-align: center;
@@ -48,9 +48,9 @@ body{
         }
         
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
         .crt-logo{
-                font-size:8px;
+                font-size:6px;
         }
         
 }
@@ -66,6 +66,12 @@ body{
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.anonymous-pro-regular {
+        font-family: "Anonymous Pro", serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 .syne-mono-regular {
