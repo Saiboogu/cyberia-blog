@@ -6,14 +6,17 @@ Description:: "We have a new logo - such as it is. My first use of Inkscape."
 Language:: "en"
 Thumbnail:: "/config/images/cyberia_logo.webp"
 Published Date:: "2025-01-20"
-Modified Date:: "2025-01-20"
+Modified Date:: "2025-01-29"
 
 content_header:: "true"
 rss_hide:: "false"
 comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
-# New Logo -- For Now
+# New Logo -- For Now (and already retired)
+
+1/29 Update - I never was too happy with that logo, and quickly retired it. New-new logo is ascii-art and CSS, and a work in progress but already an improvement in my eyes. Here's the old-new logo: 
+<img src="/config/images/cyberia_logo.webp" width="300px" height="95px" alt="slanted green text saying 'Cyberia'">
 
 I dug the style of the <a href="arise_logo.png" target="_blank">Arise logo</a>, but certainly couldn't just keep using it. I mean, the license allows for it, but it would be a bit unoriginal of me, right? 
 
