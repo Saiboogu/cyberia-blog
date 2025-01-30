@@ -21,5 +21,5 @@ I am using self hosted <a href="https://plausible.io/self-hosted-web-analytics" 
 
 # Analytics
 <iframe plausible-embed src="https://analytics.robeson.me/share/blog.robeson.com?auth=yBXnk7OMKm2SpemPo2O1_&embed=true&theme=dark" scrolling="no" frameborder="0" loading="lazy" style="width: 1px; min-width: 100%; height: 1600px;"></iframe>
-<div style="font-size: 14px; padding-bottom: 14px;">Stats powered by <a target="_blank" style="color: #4F46E5; text-decoration: underline;" href="https://plausible.io">Plausible Analytics</a></div>
+<div style="font-size: 14px; padding-bottom: 14px;">Stats powered by <a target="_blank" style="text-decoration: underline;" href="https://plausible.io">Plausible Analytics</a></div>
 <script async src="https://analytics.robeson.me/js/embed.host.js"></script>
