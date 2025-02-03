@@ -14,9 +14,9 @@ body{
         /* background-color:#121619; */
         padding:0 10px;
 
-        background: linear-gradient(to top, #000000, #000000, #333333, #333333);
+        /* background: linear-gradient(to top, #000000, #000000, #333333, #333333);
         background-size: cover;
-        background-size: 100% 2px;
+        background-size: 100% 2px; */
       /* retro stuff */
         color: #00ff00;
         text-shadow: 0 0 10px #00ff00;
