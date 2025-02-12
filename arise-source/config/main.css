@@ -3,7 +3,7 @@
 
 /* Core Styling */
 html * {
-        font-family: "smooch-sans-regular", sans-serif;
+        font-family: "ToshibaSat 8x14", sans-serif;
 }
 body{
         margin:40px auto;
@@ -19,7 +19,7 @@ body{
         background-size: 100% 2px; */
       /* retro stuff */
         color: #00ff00;
-        text-shadow: 0 0 10px #00ff00;
+
       
 
 
@@ -29,7 +29,7 @@ body{
 
       
       /* retro stuff */
-        font-family: "anonymous-pro-regular", monospace;
+        font-family: "ToshibaSat 8x14", monospace;
         font-size: 14px;
         line-height:1;
         text-align: center;
@@ -68,34 +68,18 @@ body{
   'opsz' 24
 }
 
-.anonymous-pro-regular {
-        font-family: "Anonymous Pro", serif;
-        font-weight: 400;
+@font-face {
+        font-family: 'ToshibaSat 8x14';
+        src: url(/config/fonts/WebPlus_ToshibaSat_8x14.woff) format('woff');
+        font-weight: normal;
         font-style: normal;
 }
-
-.syne-mono-regular {
-        font-family: "Syne Mono", serif;
-        font-weight: 400;
+@font-face {
+        font-family: 'ToshibaSat 8x8';
+        src: url(/config/fonts/Web437_ToshibaSat_8x8.woff) format('woff');
+        font-weight: normal;
         font-style: normal;
 }
-      
-
-.audiowide-regular {
-        font-family: "Audiowide", serif;
-        font-weight: 400;
-        font-style: normal;
-}
-
-
-/** <weight>: Use a value from 100 to 900 */
-.smooch-sans-regular {
-  font-family: "Smooch Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /*** Post styling. This section is for defining markup classes to make it easier to write prettier posts. ***/
 
 img {
@@ -166,19 +150,18 @@ a {
 
 h1{
         line-height:1.2;
-        font-family: "Audiowide", serif;
+        font-family: "ToshibaSat 8x8", serif;
 
 }
 
 h2,h3{
-        font-family: "Audiowide", serif;
+        font-family: "ToshibaSat 8x8", serif;
         padding-top:24px;
         line-height:1.2
 }
 
 /* Style for inline dates. These are configured via a separate include file in /config/content_header.html. See notes on Arise page creation for more details. */
 .date { 
-        font-family: "Syne Mono", monospace;
         font-optical-sizing: auto;
         font-weight: 300;
         font-style: normal;
@@ -215,15 +198,12 @@ h2,h3{
 
 /* Navbar styling. */
 .topbar {
-        font-family:"Syne Mono",monospace;
         padding-right:10px;
-        border-top:1px solid #65f85a;
-        border-bottom:1px solid #65f85a;
+        border:1px solid #65f85a;
         margin-bottom:20px;
         text-align:center;
 }
 .topbar a {
-        font-family:"Syne Mono",monospace;
         color:#65f85a;
         text-decoration:none;
 }
@@ -244,7 +224,6 @@ h2,h3{
 
 /* Arise Index Style */
 .arise-toc-td {
-  font-family: "Syne Mono", monospace;
   border-width: 1px;
   border-color: #65f85a;
   border-top-style: solid;
@@ -253,7 +232,6 @@ h2,h3{
   padding-bottom: 5px
 }
 .arise-toc-td-desc {
-  font-family: "Syne Mono", monospace;
   border-width: 1px;
   border-color: #65f85a;
   border-top-style: solid;
