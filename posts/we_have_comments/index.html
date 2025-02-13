@@ -2,8 +2,17 @@
 
 <html lang="en">
 <head>
-        <!-- Mobile Viewport -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/config/fonts.min.css?v0"> 
+        <link rel="stylesheet" href="/config/main.min.css?v3"> 
+        <!-- End Stylesheets -->
+
+        <!-- Font Preloads -->
+        <!-- <link rel="preload" href="/config/fonts/material_icons.woff2" as="font" type="font/woff2" crossorigin> -->
+        <link rel="preload" href="/config/fonts/orbitron-variablefont_wght-webfont.woff2" as="font" type="font/woff2" crossorigin>
+        <!-- <link rel="preload" href="/config/fonts/spacegrotesk-variablefont_wght-webfont.woff2" as="font" type="font/woff2" crossorigin> -->
+        <link rel="preload" href="/config/fonts/synemono-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/config/fonts/tektur-variablefont_wdthwght-webfont.woff2" as="font" type="font/woff2" crossorigin>
 
         <!-- Basic Metadata -->
         <meta charset="utf-8" />
@@ -34,7 +43,8 @@
         <meta name="twitter:image" content="https://blog.robeson.me/posts/we_have_comments/comments.svg" />
         <!-- End Twitter Metadata -->
 
-
+        <!-- Mobile Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/config/favicon/apple-touch-icon.png">
@@ -50,24 +60,64 @@
 
         <!-- Styesheet+Logo -->
         <style>
-                html * {font-family:"ToshibaSat 8x14",monospace;}
-        </style>
-        <link rel="stylesheet" href="/config/main.min.css?v20250213B"> 
-        <pre aria-label="CYBERIA" class="crt-logo">
+                html * {font-family:"Space Grotesk",serif;} 
+                body {background-color:#121619;margin:40px auto;max-width:650px;padding:0 10px;color:#65f85a;}
+                a {color:#b8f1b4;}
+                hr {color:#65f85a;}
+                @font-face {
+                font-family: 'Material Icons';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Material Icons'), local('MaterialIcons-Regular'), url(/config/fonts/material_icons.woff2) format('woff2');
+                }
 
-       ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██╗ █████╗    
-      ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██║██╔══██╗   
-      ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║███████║   
-      ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██║██╔══██║   
-      ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║██║  ██║   
-       ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   
-        </pre>
-               
+                @font-face {
+                font-family: 'orbitronregular';
+                font-style: normal;
+                font-weight: 700;
+                src: url(/config/fonts/orbitron-variablefont_wght-webfont.woff2) format('font/woff2'),
+                        url(/config/fonts/orbitron-variablefont_wght-webfont.woff) format('font/woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                @font-face {
+                font-family: 'space_grotesklight';
+                font-style: normal;
+                font-weight: 400;
+                src: url(/config/fonts/spacegrotesk-variablefont_wght-webfont.woff2) format('font/woff2'),
+                        url(/config/fonts/spacegrotesk-variablefont_wght-webfont.woff) format('font/woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                @font-face {
+                font-family: 'syne_monoregular';
+                font-style: normal;
+                font-weight: 400;
+                src: url(/config/fonts/synemono-regular-webfont.woff2) format('font/woff2'),
+                        url(/config/fonts/synemono-regular-webfont.woff) format('font/woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                @font-face {
+                font-family: 'tekturregular';
+                font-style: normal;
+                font-weight: 500;
+                font-stretch: 75%;
+                src: url(/config/fonts/tektur-variablefont_wdthwght-webfont.woff2) format('font/woff2'),
+                        url(/config/fonts/tektur-variablefont_wdthwght-webfont.woff) format('font/woff');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+
+                .topbar a {color:#65f85a;}
+        </style> 
+
+        <div class="logo"><a href="/"><img alt="Blog Logo Image Header" height="158" width="500" src="/config/images/cyberia_logo.webp?v1" /></a></div>
         <!-- End Styles+Logo -->
 
         <!-- Navigation -->
         <nav class="topbar">
-                [<a href="/">HOME</a>] [<a href="/posts">POSTS</a>] [<a href="/recommendations">RECOMMENDATIONS</a>] [<a href="/shower_thoughts">RANDOM THOUGHTS</a>] [<a href="/privacy/">PRIVACY</a>] [<a href="https://github.com/Saiboogu" target="_blank">GITHUB</a>]
+                <a href="/">Home</a> ⟛ <a href="/posts">Posts</a> ⟛ <a href="https://github.com/Saiboogu">GitHub</a>
         </nav>
         <!-- End Navigation -->
 
@@ -85,11 +135,7 @@
 <body style="background-color: #121619;">
 <p class="date">// 2025-01-17 // <i>by Ben Robeson</i></p>
 <h1 id="comment-away..">Comment away..</h1>
-<div class="article_pic" style="float:left;margin-right:8px;">
-<svg xmlns="http://www.w3.org/2000/svg" width="64px" viewBox="0 -960 960 960" fill="#e8eaed">
-<path d="M880-80 720-240H160q-33 0-56.5-23.5T80-320v-480q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v720ZM160-320h594l46 45v-525H160v480Zm0 0v-480 480Z"/>
-</svg>
-</div>
+<img src="comments.svg" width="64" height="64" style="float:left;margin:50">
 Bit of a “Build it, and they (might) come (eventually). That’s fine,
 this is all practice and education.
 <p/>
@@ -103,10 +149,9 @@ short and I didn’t like the CSS hacks I was using to try and make it
 taller from Arise instead of Cusdis.</p>
 <br/>
 <br/>
-<h2>Comments <svg width="14px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"/>
-</svg>
-</h2>
+<h2>Comments <span style="font-family: 'Material Icons';">
+  add_comment
+  </span></h2>
 
 <div id="cusdis_thread"
   data-host="https://cusdis.robeson.me"
@@ -116,11 +161,11 @@ taller from Arise instead of Cusdis.</p>
   data-page-title="We Have Comments"
   data-theme="dark"
 ></div>
-<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js?v20250212A"></script>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js?v1"></script>
 
         <!-- Page Footer -->
         <div class="footer">
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Unless otherwise marked, all content on this site is created by <span property="cc:attributionName">Ben Robeson</span> and licensed under a Creative Commons Attribution Non Commercial Sharealike License <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;text-decoration:none;">CC BY-NC-SA 4.0
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://blog.robeson.me/">Saiboogu's Blog</a> by <span property="cc:attributionName">Ben Robeson</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/cc.svg" alt="CC">
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/by.svg" alt="BY">
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/nc.svg" alt="NC">
@@ -128,6 +173,15 @@ taller from Arise instead of Cusdis.</p>
 </a></p> 
                 <p>Built with 💚 using <a href="https://github.com/spectrasecure/arise">Arise</a>, a cloud-native static site generator written in Bash.</p>
         </div>
+        <!-- End Page Footer -->
+
+        <!-- Quicklink Prefetching-->
+        <!-- <script src="/config/js/quicklink.2.3.0.umd.js"></script>
+        <script>
+        window.addEventListener('load', () => {
+          quicklink.listen();
+        });
+        </script> -->
 
 </body>
 </html>
