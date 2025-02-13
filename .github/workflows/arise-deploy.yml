@@ -55,3 +55,6 @@ jobs:
           FOLDER: arise-out # The Arise build output location. Don't change this.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Handled automatically -- Don't change this unless you're pushing to a different repo
           MESSAGE: "Commit: ({sha}) {msg}" # Copies commit msg from main to the deploy version branch
+
+      - name: Cloudflare Purge Cache
+        uses: jakejarvis/cloudflare-purge-action@v0.3.0
