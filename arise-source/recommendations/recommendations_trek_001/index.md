@@ -1,5 +1,5 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: "Recommendations: Irreverent Star Trek Reviewers"
+Title:: "Irreverent Star Trek Reviewers"
 
 Author:: "Ben Robeson"
 Description:: "Some of my favorite Star Trek YouTubers."

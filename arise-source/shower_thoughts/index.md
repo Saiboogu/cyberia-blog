@@ -1,5 +1,5 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: "Index: Blog Posts"
+Title:: "Index: Shower Thoughts"
 
 Author:: "Ben Robeson"
 Description:: "My posts"

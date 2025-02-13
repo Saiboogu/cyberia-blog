@@ -1,5 +1,5 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: "Shower Thoughts, #1"
+Title:: "How did the transporter chief figure that out?"
 
 Author:: "Ben Robeson"
 Description:: "Transporter operators as video game players."
