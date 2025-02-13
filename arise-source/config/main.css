@@ -11,8 +11,7 @@
         --lightgrey:#9ac3e0;
         --mediumgrey:#617b8c;
         --darkgrey:#313e47;
-        --black:#00202e;
-      
+        --black:#00202e
       }
       html * {
         font-family:"ToshibaSat 8x14",sans-serif
@@ -24,16 +23,6 @@
         font-size:14px;
         padding:0 10px;
         color:var(--white)
-      }
-      @media screen and (max-width:600px) {
-        .crt-logo {
-          font-size:10px
-        }
-      }
-      @media screen and (max-width:450px) {
-        .crt-logo {
-          font-size:6px
-        }
       }
       .material-symbols-outlined {
         font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24
@@ -106,9 +95,20 @@
         margin-top:80px
       }
       a {
-        color:var(--green);
+        color:var(--yellow);
         text-decoration:none
       }
+      p {
+              hyphenate:auto;
+      }
+      p a::before {
+        content: "["
+      }
+      
+      p a::after {
+        content: "]"
+      }
+      
       h1 {
         background-color:var(--darkgrey);
         color:var(--yellow);
@@ -116,24 +116,33 @@
         display:block;
         width:fit-content;
         padding:8px;
-        box-shadow:5px 5px 0 #000,
-             inset 0px 0px 0px 2px var(--lightblue);
+        box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--lightblue);
         border:4px solid var(--darkgrey)
       }
       tr:nth-child(odd) {
-        background-color:var(--darkgrey); 
+        background-color:var(--darkgrey)
       }
       .crt-logo {
         font-family:"ToshibaSat 8x14",monospace;
         font-size:14px;
+        padding:10px;
         text-align:center;
         align-items:center;
         overflow:hidden;
         color:var(--yellow);
         background-color:var(--darkgrey);
-        box-shadow:5px 5px 0 #000,
-             inset 0px 0px 0px 2px var(--orange);
+        box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--orange);
         border:4px solid var(--darkgrey)
+      }
+      @media screen and (max-width:600px) {
+        .crt-logo {
+          font-size:10px
+        }
+      }
+      @media screen and (max-width:450px) {
+        .crt-logo {
+          font-size:10px
+        }
       }
       .topbar {
         padding:8px;
@@ -142,8 +151,7 @@
         text-align:center;
         display:block;
         align-self:right;
-        box-shadow:5px 5px 0 #000,
-             inset 0px 0px 0px 2px var(--orange);
+        box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--orange);
         border:4px solid var(--darkblue)
       }
       .topbar a {
@@ -151,9 +159,14 @@
         text-decoration:none
       }
       .date {
-        padding-bottom:0;
-        margin-bottom:0;
-        font-size:14px
+        font-size:13px;
+        background-color:var(--darkgrey);
+        color:var(--lightgrey);
+        display:block;
+        width:fit-content;
+        padding:8px;
+        box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--lightblue);
+        border:4px solid var(--darkgrey)
       }
       @media screen and (max-width:900px) {
         .date {
@@ -167,8 +180,7 @@
         }
       }
       .footer {
-        box-shadow:5px 5px 0 #000,
-             inset 0px 0px 0px 2px var(--orange);
+        box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--orange);
         border:4px solid var(--darkgrey);
         color:var(--lightgrey);
         background-color:var(--darkgrey);
@@ -179,13 +191,19 @@
       .footer a {
         color:var(--orange)
       }
+      .footer a::before {
+        content:""
+      }
+      .footer a::after {
+        content:""
+      }
       .arise-toc-td {
         vertical-align:top;
         border-width:0;
         border-color:var(--yellow);
         border-top-style:solid;
         text-align:left;
-        padding:6px;
+        padding:6px
       }
       .arise-toc-td-desc {
         vertical-align:top;
@@ -193,18 +211,18 @@
         border-color:var(--yellow);
         border-top-style:solid;
         text-align:left;
-        padding:6px;
+        padding:6px
       }
       .arise-toc-th {
         background-color:var(--darkgrey);
         padding:8px;
-        box-shadow:inset 0px 0px 0px 2px var(--lightblue);
+        box-shadow:inset 0 0 0 2px var(--lightblue);
         border:4px solid var(--darkgrey)
       }
       .arise-toc-th-desc {
         background-color:var(--darkgrey);
         padding:8px;
-        box-shadow:inset 0px 0px 0px 2px var(--lightblue);
+        box-shadow:inset 0 0 0 2px var(--lightblue);
         border:4px solid var(--darkgrey)
       }
       @media only screen and (max-width:600px) {
