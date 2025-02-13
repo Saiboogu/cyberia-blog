@@ -24,9 +24,6 @@
         padding:0 10px;
         color:var(--white)
       }
-      .material-symbols-outlined {
-        font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24
-      }
       @font-face {
         font-family:'ToshibaSat 8x14';
         src:url(/config/fonts/WebPlus_ToshibaSat_8x14.woff) format('woff');
@@ -39,6 +36,11 @@
         font-weight:400;
         font-style:normal
       }
+
+      ::selection {
+        background-color:var(--red);
+      }
+
       img {
         max-width:100%;
         max-height:100%;
