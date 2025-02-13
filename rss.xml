@@ -13,7 +13,14 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Thu, 13 Feb 2025 15:24:17 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Feb 2025 16:00:05 +0000</lastBuildDate>
+        <item>
+        <title>How did the transporter chief figure that out?</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Transporter operators as video game players.</description>
+        <link>https://blog.robeson.me/shower_thoughts/shower_thoughts_001/</link>
+        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
         <item>
         <title>The Blog</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -43,25 +50,18 @@
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>Shower Thoughts, #1</title>
-        <dc:creator>Ben Robeson</dc:creator>
-        <description>Transporter operators as video game players.</description>
-        <link>https://blog.robeson.me/posts/shower_thoughts_001/</link>
-        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-        </item>
-        <item>
-        <title>Recommendations: Irreverent Star Trek Reviewers</title>
-        <dc:creator>Ben Robeson</dc:creator>
-        <description>Some of my favorite Star Trek YouTubers.</description>
-        <link>https://blog.robeson.me/posts/recommendations_trek_001/</link>
-        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-        </item>
-        <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Privacy details for the website.</description>
         <link>https://blog.robeson.me/privacy/</link>
         <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Irreverent Star Trek Reviewers</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Some of my favorite Star Trek YouTubers.</description>
+        <link>https://blog.robeson.me/recommendations/recommendations_trek_001/</link>
+        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
 </rss>
