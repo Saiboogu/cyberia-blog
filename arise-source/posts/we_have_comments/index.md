@@ -14,7 +14,7 @@ comments:: "true"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 # Comment away.. 
-<img src="comments.svg" width="64" height="64" style="float:left;margin:50">
+<div class="article_pic" style="float:left;margin-right:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="64px" viewBox="0 -960 960 960" fill="#e8eaed"><path d="M880-80 720-240H160q-33 0-56.5-23.5T80-320v-480q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v720ZM160-320h594l46 45v-525H160v480Zm0 0v-480 480Z"/></svg></div>
 Bit of a "Build it, and they (might) come (eventually). That's fine, this is all practice and education.
 <p/>
 
