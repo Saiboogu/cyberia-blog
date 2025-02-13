@@ -1,4 +1,20 @@
-html * {
+:root {
+        --red:#e01f27;
+        --orange:#f06151;
+        --yellow:#fbbd5e;
+        --green:#52b148;
+        --lightblue:#31a1da;
+        --darkblue:#1a5897;
+        --purple:#5c50a1;
+        --pink:#b54f9b;
+        --white:#d7f9f8;
+        --lightgrey:#9ac3e0;
+        --mediumgrey:#7797ad;
+        --darkgrey:#313e47;
+        --black:#00202e;
+      }
+      
+      html * {
         font-family:"ToshibaSat 8x14",sans-serif
       }
       body {
@@ -6,22 +22,11 @@ html * {
         max-width:650px;
         line-height:1;
         font-size:14px;
-        color:#65f85a;
         padding:0 10px;
-        color:#0f0;
+        color:var(--yellow);;
       
       }
-      .crt-logo {
-        font-family:"ToshibaSat 8x14",monospace;
-        font-size:14px;
-        line-height:1;
-        text-align:center;
-        text-shadow:0 0 10px #0f0;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        overflow:hidden
-      }
+      
       @media screen and (max-width:600px) {
         .crt-logo {
           font-size:10px
@@ -45,7 +50,6 @@ html * {
         font-family:'ToshibaSat 8x8';
         src:url(/config/fonts/Web437_ToshibaSat_8x8.woff) format('woff');
         font-weight:400;
-        
         font-style:normal
       }
       img {
@@ -59,14 +63,14 @@ html * {
         display:block
       }
       code {
-        background-color:#293137;
+        background-color: var(--lightgrey);
         border-radius:16px;
         padding-left:30px;
         padding-right:30px;
         line-height:2em;
         padding-top:1px;
         padding-bottom:1px;
-        color:#65f85a;
+        color:var(--yellow);
         font-family:"ToshibaSat 8x14",'Courier New',Courier,monospace;
         font-weight:400;
         font-style:normal
@@ -80,7 +84,7 @@ html * {
         word-wrap:break-word
       }
       blockquote {
-        border-left:1px solid #65f85a;
+        border-left:1px solid var(--yellow);
         display:block;
         margin-top:1em;
         margin-bottom:1em;
@@ -88,24 +92,50 @@ html * {
         padding-left:10px;
         margin-right:40px;
         font-style:italic;
-        color:#46ab3e
+        color:var(--green)
       }
       hr {
-        color:#65f85a;
+        color:var(--yellow);
         margin-left:auto;
         margin-right:auto;
         max-width:300px
       }
       #endline {
-        color:#65f85a;
+        color:var(--yellow);
         margin-left:auto;
         margin-right:auto;
         max-width:300px;
         margin-top:80px
       }
       a {
-        color:#b8f1b4
+        color:var(--green)
       }
+      .crt-logo {
+        font-family:"ToshibaSat 8x14",monospace;
+        font-size:14px;
+        text-align:center;  
+        align-items:center;
+        overflow:hidden;
+          color:var(--red);
+      }
+      .logo {
+        margin-bottom:20px;
+        text-align:center
+      }
+      .topbar {
+        padding:4px;
+        color: var(--black);
+        background-color:var(--lightblue);
+        text-align:center;
+        display:inline-block;
+        align-self:center;
+        box-shadow: 5px 5px 0 var(--darkblue);
+      }
+      .topbar a {
+        color:var(--white);
+        text-decoration:none
+      }
+      
       .date {
         padding-bottom:0;
         margin-bottom:0;
@@ -122,42 +152,30 @@ html * {
           margin-left:30px
         }
       }
-      .logo {
-        margin-bottom:20px;
-        text-align:center
-      }
-      .topbar {
-        padding:4px;
-        border:1px solid #65f85a;
-        /*! border-bottom:1px solid #65f85a; */
-        margin-bottom:20px;
-        text-align:center;
-        display: inline-block;
-        align-self: center;
-      }
-      .topbar a {
-        color:#65f85a;
-        text-decoration:none
-      }
+      
       .footer {
-        border-top:2px solid #65f85a;
+        border-top:2px solid var(--lightblue);
+        color:var(--lightblue);
         font-size:12px;
         margin-top:120px;
         text-align:center
       }
+      .footer a {
+        color:var(--lightblue)
+      }
       .arise-toc-td {
-        vertical-align: top;
-        border-width:0px;
-        border-color:#65f85a;
+        vertical-align:top;
+        border-width:0;
+        border-color:var(--yellow);
         border-top-style:solid;
         text-align:left;
         padding-right:10px;
         padding-bottom:5px
       }
       .arise-toc-td-desc {
-        vertical-align: top;
-        border-width:0px;
-        border-color:#65f85a;
+        vertical-align:top;
+        border-width:0;
+        border-color:var(--yellow);
         border-top-style:solid;
         text-align:left;
         padding-right:10px;
