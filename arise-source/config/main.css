@@ -201,7 +201,16 @@
       .footer a::after {
         content:""
       }
-      .arise-toc-td {
+      .arise-toc-td-date {
+        vertical-align:top;
+        border-width:0;
+        border-color:var(--yellow);
+        border-top-style:solid;
+        text-align:left;
+        padding:6px;
+        white-space: nowrap;
+      }
+      .arise-toc-td-title {
         vertical-align:top;
         border-width:0;
         border-color:var(--yellow);
