@@ -13,27 +13,20 @@
     </image>
     <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Mon, 03 Feb 2025 03:26:52 +0000</lastBuildDate>
+<lastBuildDate>Thu, 13 Feb 2025 02:33:25 +0000</lastBuildDate>
+        <item>
+        <title>The Blog</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Blog - So far</description>
+        <link>https://blog.robeson.me/posts/the_blog/</link>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Privacy details for the website.</description>
         <link>https://blog.robeson.me/posts/privacy/</link>
         <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-        </item>
-        <item>
-        <title>New Logo!</title>
-        <dc:creator>Ben Robeson</dc:creator>
-        <description>We have a new logo - such as it is. My first use of Inkscape.</description>
-        <link>https://blog.robeson.me/posts/new_logo/</link>
-        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
-        </item>
-        <item>
-        <title>Recommendations: Irreverent Star Trek Reviewers</title>
-        <dc:creator>Ben Robeson</dc:creator>
-        <description>Some of my favorite Star Trek YouTubers.</description>
-        <link>https://blog.robeson.me/posts/recommendations_trek_001/</link>
-        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Blog, Day 1</title>
@@ -43,10 +36,10 @@
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>The Blog</title>
+        <title>New Logo!</title>
         <dc:creator>Ben Robeson</dc:creator>
-        <description>Blog - So far</description>
-        <link>https://blog.robeson.me/posts/the_blog/</link>
+        <description>We have a new logo - such as it is. My first use of Inkscape.</description>
+        <link>https://blog.robeson.me/posts/new_logo/</link>
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
@@ -62,6 +55,13 @@
         <description>Transporter operators as video game players.</description>
         <link>https://blog.robeson.me/posts/shower_thoughts_001/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Recommendations: Irreverent Star Trek Reviewers</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Some of my favorite Star Trek YouTubers.</description>
+        <link>https://blog.robeson.me/posts/recommendations_trek_001/</link>
+        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
 </rss>
