@@ -10,8 +10,8 @@
         <meta name="HandheldFriendly" content="True" />
         <meta name="generator" content="Arise" />
 
-        <title>Index: Blog Posts · Cyberia</title>
-        <meta name="description" content="My posts">
+        <title>{{title}} · Cyberia</title>
+        <meta name="description" content="Longer title">
         <meta name="author" content="Ben Robeson">
         <!-- End Basic Metadata -->
 
@@ -19,20 +19,20 @@
         <meta property="og:site_name" content="Cyberia" />
         <meta property="og:logo" content="/config/images/cyberia.png" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Index: Blog Posts · Cyberia" />
-        <meta property="og:description" content="My posts" />
-        <meta property="og:url" content="https://blog.robeson.me/posts/" />
-        <meta property="og:image" content="https://blog.robeson.me/posts/" />
-        <meta property="article:published_time" content="" />
-        <meta property="article:modified_time" content="" />
+        <meta property="og:title" content="{{title}} · Cyberia" />
+        <meta property="og:description" content="Longer title" />
+        <meta property="og:url" content="https://blog.robeson.me/config/new_post_template/" />
+        <meta property="og:image" content="https://blog.robeson.me/config/new_post_template//config/images/cyberia.png" />
+        <meta property="article:published_time" content="{{date}}" />
+        <meta property="article:modified_time" content="{{date}}" />
         <!-- End OpenGraph Metadata -->
     
         <!-- Twitter Metadata -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Index: Blog Posts · Cyberia" />
-        <meta name="twitter:description" content="My posts" />
-        <meta name="twitter:url" content="https://blog.robeson.me/posts/" />
-        <meta name="twitter:image" content="https://blog.robeson.me/posts/" />
+        <meta name="twitter:title" content="{{title}} · Cyberia" />
+        <meta name="twitter:description" content="Longer title" />
+        <meta name="twitter:url" content="https://blog.robeson.me/config/new_post_template/" />
+        <meta name="twitter:image" content="https://blog.robeson.me/config/new_post_template//config/images/cyberia.png" />
         <!-- End Twitter Metadata -->
 
 
@@ -84,20 +84,26 @@
 </head>
 
 <body style="background-color: #121619;">
-        <h1>Index: Blog Posts</h1> 
-        <p id="arise-toc">
-        <table id="arise-toc-table">
-        <tr class="arise-toc-tr">
-                <th class="arise-toc-th-date" style="width:10%">Date</th>
-                <th class="arise-toc-th-title" style="width:30%">Title</th>
-                <th class="arise-toc-th-desc" style="width:60%">Description</th>
-        </tr>
-<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/posts/we_have_comments/">2025-01-17</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/posts/we_have_comments/">We Have Comments</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/posts/we_have_comments/">Blog improvements - Adding self hosted comments.</a></td></tr>
-<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/posts/the_blog/">2025-01-20</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/posts/the_blog/">The Blog</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/posts/the_blog/">Blog - So far</a></td></tr>
-<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/posts/new_logo/">2025-01-20</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/posts/new_logo/">New Logo!</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/posts/new_logo/">We have a new logo - such as it is. My first use of Inkscape.</a></td></tr>
-<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/posts/day_one/">2025-01-12</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/posts/day_one/">Blog, Day 1</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/posts/day_one/">A new blog, day one</a></td></tr>
-        </table>
-        </p>
+<p class="date">// {{date}} // <i>by Ben Robeson</i></p>
+<h1 id="h1-blog-title">H1 Blog Title</h1>
+<p>New Page Documentation:
+https://github.com/Saiboogu/arise-blog/tree/blog-prod/docs/guides/creating-arise-pages</p>
+<br/>
+<br/>
+<h2>Comments <svg width="14px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"/>
+</svg>
+</h2>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.robeson.me"
+  data-app-id="ea27a8f0-b4e2-471a-b7f9-0a350858acba"
+  data-page-id="/config/new_post_template/"
+  data-page-url="/config/new_post_template/"
+  data-page-title="{{title}}"
+  data-theme="dark"
+></div>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js?v20250212A"></script>
 
         <!-- Page Footer -->
         <div class="footer">

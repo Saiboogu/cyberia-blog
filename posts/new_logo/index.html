@@ -2,17 +2,8 @@
 
 <html lang="en">
 <head>
-        <!-- Stylesheets -->
-        <link rel="stylesheet" href="/config/fonts.min.css?v0"> 
-        <link rel="stylesheet" href="/config/main.min.css?v3"> 
-        <!-- End Stylesheets -->
-
-        <!-- Font Preloads -->
-        <!-- <link rel="preload" href="/config/fonts/material_icons.woff2" as="font" type="font/woff2" crossorigin> -->
-        <link rel="preload" href="/config/fonts/orbitron-variablefont_wght-webfont.woff2" as="font" type="font/woff2" crossorigin>
-        <!-- <link rel="preload" href="/config/fonts/spacegrotesk-variablefont_wght-webfont.woff2" as="font" type="font/woff2" crossorigin> -->
-        <link rel="preload" href="/config/fonts/synemono-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/config/fonts/tektur-variablefont_wdthwght-webfont.woff2" as="font" type="font/woff2" crossorigin>
+        <!-- Mobile Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Basic Metadata -->
         <meta charset="utf-8" />
@@ -26,13 +17,14 @@
 
         <!-- OpenGraph Metadata -->
         <meta property="og:site_name" content="Cyberia" />
+        <meta property="og:logo" content="/config/images/cyberia.png" />
         <meta property="og:type" content="article" />
         <meta property="og:title" content="New Logo! · Cyberia" />
         <meta property="og:description" content="We have a new logo - such as it is. My first use of Inkscape." />
         <meta property="og:url" content="https://blog.robeson.me/posts/new_logo/" />
         <meta property="og:image" content="https://blog.robeson.me/posts/new_logo//config/images/cyberia_logo.webp" />
         <meta property="article:published_time" content="2025-01-20" />
-        <meta property="article:modified_time" content="2025-01-20" />
+        <meta property="article:modified_time" content="2025-02-12" />
         <!-- End OpenGraph Metadata -->
     
         <!-- Twitter Metadata -->
@@ -43,15 +35,14 @@
         <meta name="twitter:image" content="https://blog.robeson.me/posts/new_logo//config/images/cyberia_logo.webp" />
         <!-- End Twitter Metadata -->
 
-        <!-- Mobile Viewport -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/config/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/config/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/config/favicon/favicon-16x16.png">
         <link rel="manifest" href="/config/favicon/site.webmanifest">
-        <link rel="mask-icon" href="/config/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="mask-icon" href="/config/favicon/safari-pinned-tab.svg" color="#5bbad5">w
         <link rel="shortcut icon" href="/config/favicon/favicon.ico">
         <meta name="msapplication-TileColor" content="#00aba9">
         <meta name="msapplication-config" content="/config/favicon/browserconfig.xml">
@@ -60,64 +51,24 @@
 
         <!-- Styesheet+Logo -->
         <style>
-                html * {font-family:"Space Grotesk",serif;} 
-                body {background-color:#121619;margin:40px auto;max-width:650px;padding:0 10px;color:#65f85a;}
-                a {color:#b8f1b4;}
-                hr {color:#65f85a;}
-                @font-face {
-                font-family: 'Material Icons';
-                font-style: normal;
-                font-weight: 400;
-                src: local('Material Icons'), local('MaterialIcons-Regular'), url(/config/fonts/material_icons.woff2) format('woff2');
-                }
+                html * {font-family:"ToshibaSat 8x14",monospace;}
+        </style>
+        <link rel="stylesheet" href="/config/main.min.css?v20250213B"> 
+        <pre aria-label="CYBERIA" class="crt-logo">
 
-                @font-face {
-                font-family: 'orbitronregular';
-                font-style: normal;
-                font-weight: 700;
-                src: url(/config/fonts/orbitron-variablefont_wght-webfont.woff2) format('font/woff2'),
-                        url(/config/fonts/orbitron-variablefont_wght-webfont.woff) format('font/woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                }
-
-                @font-face {
-                font-family: 'space_grotesklight';
-                font-style: normal;
-                font-weight: 400;
-                src: url(/config/fonts/spacegrotesk-variablefont_wght-webfont.woff2) format('font/woff2'),
-                        url(/config/fonts/spacegrotesk-variablefont_wght-webfont.woff) format('font/woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                }
-
-                @font-face {
-                font-family: 'syne_monoregular';
-                font-style: normal;
-                font-weight: 400;
-                src: url(/config/fonts/synemono-regular-webfont.woff2) format('font/woff2'),
-                        url(/config/fonts/synemono-regular-webfont.woff) format('font/woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                }
-
-                @font-face {
-                font-family: 'tekturregular';
-                font-style: normal;
-                font-weight: 500;
-                font-stretch: 75%;
-                src: url(/config/fonts/tektur-variablefont_wdthwght-webfont.woff2) format('font/woff2'),
-                        url(/config/fonts/tektur-variablefont_wdthwght-webfont.woff) format('font/woff');
-                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-                }
-
-
-                .topbar a {color:#65f85a;}
-        </style> 
-
-        <div class="logo"><a href="/"><img alt="Blog Logo Image Header" height="158" width="500" src="/config/images/cyberia_logo.webp?v1" /></a></div>
+       ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██╗ █████╗    
+      ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██║██╔══██╗   
+      ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██║███████║   
+      ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██║██╔══██║   
+      ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║██║  ██║   
+       ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   
+        </pre>
+               
         <!-- End Styles+Logo -->
 
         <!-- Navigation -->
         <nav class="topbar">
-                <a href="/">Home</a> ⟛ <a href="/posts">Posts</a> ⟛ <a href="https://github.com/Saiboogu">GitHub</a>
+                [<a href="/">HOME</a>] [<a href="/posts">POSTS</a>] [<a href="/recommendations">RECOMMENDATIONS</a>] [<a href="/shower_thoughts">RANDOM THOUGHTS</a>] [<a href="/privacy/">PRIVACY</a>] [<a href="https://github.com/Saiboogu" target="_blank">GITHUB</a>]
         </nav>
         <!-- End Navigation -->
 
@@ -134,10 +85,12 @@
 
 <body style="background-color: #121619;">
 <p class="date">// 2025-01-20 // <i>by Ben Robeson</i></p>
-<h1 id="new-logo-for-now">New Logo – For Now</h1>
-<p>I dug the style of the <a href="arise_logo.png" target="_blank">Arise
-logo</a>, but certainly couldn’t just keep using it. I mean, the license
-allows for it, but it would be a bit unoriginal of me, right?</p>
+<h1 id="new-logo-for-now-and-already-retired">New Logo – For Now (and
+already retired)</h1>
+<p>1/20 Original Post I dug the style of the
+<a href="arise_logo.png" target="_blank">Arise logo</a>, but certainly
+couldn’t just keep using it. I mean, the license allows for it, but it
+would be a bit unoriginal of me, right?</p>
 <p>So I fired up Inkscape for the first time ever, and discovered
 <a href="https://www.dafont.com/" target="_blank">DaFont</a> and got to
 work. It’s OK for a start - but expect it to change. (And hopefully for
@@ -146,11 +99,17 @@ the better!)</p>
 certain of it, not entirely. But again, it’s a start.</p>
 <p>So, with that incredibly enthusiastic explanation out of the way –
 Welcome to Cyberia!</p>
+<p>1/29 Update - I never was too happy with that logo, and quickly
+retired it. New-new logo is ascii-art and CSS, and a work in progress
+but already an improvement in my eyes. Here’s the old-new logo for
+posterity:
+<img src="/config/images/cyberia_logo.webp" width="300px" height="95px" alt="slanted green text saying 'Cyberia'"></p>
 <br/>
 <br/>
-<h2>Comments <span style="font-family: 'Material Icons';">
-  add_comment
-  </span></h2>
+<h2>Comments <svg width="14px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"/>
+</svg>
+</h2>
 
 <div id="cusdis_thread"
   data-host="https://cusdis.robeson.me"
@@ -160,11 +119,11 @@ Welcome to Cyberia!</p>
   data-page-title="New Logo!"
   data-theme="dark"
 ></div>
-<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js?v1"></script>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js?v20250212A"></script>
 
         <!-- Page Footer -->
         <div class="footer">
-<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://blog.robeson.me/">Saiboogu's Blog</a> by <span property="cc:attributionName">Ben Robeson</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">Unless otherwise marked, all content on this site is created by <span property="cc:attributionName">Ben Robeson</span> and licensed under a Creative Commons Attribution Non Commercial Sharealike License <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer" style="display:inline-block;text-decoration:none;">CC BY-NC-SA 4.0
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/cc.svg" alt="CC">
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/by.svg" alt="BY">
 <img style="height:22px!important;margin-left:3px;vertical-align:middle;display:inline-block;" height="22px" width="22px" src="/config/images/nc.svg" alt="NC">
@@ -172,15 +131,6 @@ Welcome to Cyberia!</p>
 </a></p> 
                 <p>Built with 💚 using <a href="https://github.com/spectrasecure/arise">Arise</a>, a cloud-native static site generator written in Bash.</p>
         </div>
-        <!-- End Page Footer -->
-
-        <!-- Quicklink Prefetching-->
-        <!-- <script src="/config/js/quicklink.2.3.0.umd.js"></script>
-        <script>
-        window.addEventListener('load', () => {
-          quicklink.listen();
-        });
-        </script> -->
 
 </body>
 </html>
