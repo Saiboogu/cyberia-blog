@@ -1,14 +1,16 @@
 #!/bin/bash
-
+# NEWPOST  
+# Built for Cyberia to compliment Arise
+# https://github.com/Saiboogu/cyberia-blog
 # Sets up a new foler and index.md file for a new post
 # Usage: ./newpost "Post Title"
 
-# Get list of directories in arise-source
+# Get list of directories in arise-source for section choices
 directories=$(find arise-source/ -maxdepth 1 -type d -not -name arise-source -not -wholename arise-source/config -not -wholename arise-source/privacy | awk -F'/' '{print $2}')
 options=($directories)
 max=${#options[@]}
 
-# Print the pretty blog logo since this is our tool
+# Print the big pretty logo since this is our tool and I'm having fun
 cat << 'EOF'
 ┌────────────────────────────────────────────────────────┐
 │   ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██╗ █████╗   │
