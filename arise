@@ -148,8 +148,10 @@ if [[ "$keep_source" == false ]]; then
                 [[ -f "$fname" ]] && rm "$fname"
         done <$removelist
         # Remove site config templates
+        rm -rf "$config/new_post_template"
         rm "$config/header.html"
         rm "$config/content_header.html"
+        rm "$config/comments.html"
         rm "$config/footer.html"
         rm "$config/arise.conf"
         echo " DONE."
