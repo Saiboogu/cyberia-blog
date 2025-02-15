@@ -7,13 +7,13 @@
     <language>en</language>
     <generator>Arise</generator>
     <image>
-      <url>https://cyberia.robeson.me/config/favicon/favicon.ico</url>
+      <url>https://cyberia.robeson.me/favicon/favicon.ico</url>
       <title>Cyberia</title>
       <link>https://cyberia.robeson.me</link>
     </image>
     <atom:link href="https://cyberia.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Sat, 15 Feb 2025 04:59:23 +0000</lastBuildDate>
+<lastBuildDate>Sat, 15 Feb 2025 05:05:01 +0000</lastBuildDate>
         <item>
         <title>How did the transporter chief figure that out?</title>
         <dc:creator>Ben Robeson</dc:creator>
