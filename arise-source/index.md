@@ -4,7 +4,7 @@ Title:: "Cyberia"
 Author:: "Ben Robeson"
 Description:: "A personal blog. Tech, Trek (scifi overall), Random thoughts. We'll see where it goes."
 Language:: "en"
-Thumbnail:: "config/images/cyberia.png"
+Thumbnail:: "images/cyberia.png"
 Published Date:: "2025-01-11"
 Modified Date:: "2025-01-29"
 

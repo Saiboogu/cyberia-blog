@@ -4,7 +4,7 @@ Title:: "{{title}}"
 Author:: "Ben Robeson"
 Description:: "Longer title"
 Language:: "en"
-Thumbnail:: "/config/images/cyberia.png"
+Thumbnail:: "/images/cyberia.png"
 Published Date:: "{{date}}"
 Modified Date:: "{{date}}"
 

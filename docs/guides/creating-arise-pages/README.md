@@ -99,7 +99,7 @@ All pages in Arise are built by concatenating the following files in the followi
 
 If you want to change the style or overall layout of your website, you need to edit the `/config/header.html` file for your website.
 
-By default, the stylesheet used by `/config/header.html` is [/config/main.css](/arise-source/config/main.css).
+By default, the stylesheet used by `/config/header.html` is [/css/main.css](/arise-source/css/main.css).
 
 The Arise header supports the following dynamic metadata tags, which will be populated with info from the page being built at build time:
 - `{{base_url}}` - The base url for your website, in the format of `https://example.com`
