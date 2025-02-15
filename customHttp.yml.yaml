@@ -1,0 +1,64 @@
+customHeaders:
+  - pattern: '/*'
+    headers:
+    - key: 'access-control-allow-origin'
+      value: '*'
+
+  - pattern: '*.svg'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.png'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.jp*g'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.gif'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.ico'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.webp'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.css'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.js'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '*.woff*'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=31536000'
+      - key: 'access-control-allow-origin'
+        value: '*'
+  - pattern: '/*/*.html'
+    headers:
+      - key: 'Cache-Control' 
+        value: 's-maxage=86400'
