@@ -20,7 +20,7 @@ That's the stock blurb from this page, but now I'm speaking for myself. I haven'
 
 02/12/25 - I underestimated CSS. Fortunately, I'm having fun figuring it out better.
 
-This page is hosted with Cloudflare, built with Github actions. Pages are written in Markdown, and I'm trying out <a href="https://surge.sh/" target="_blank">surge.sh</a> for staging. 
+This page is hosted with Cloudflare (02/15/25 - Now AWS Amplify), built with Github actions. Pages are written in Markdown, and I'm trying out <a href="https://surge.sh/" target="_blank">surge.sh</a> for staging. 
 
 The theme began as the stock Arise theme and many aspects of that remain. I've been adjusting things though, and almost certainly will continue. 
 
