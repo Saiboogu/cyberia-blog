@@ -45,7 +45,7 @@ jobs:
         run: sudo apt-get install -y pandoc
 
       - name: Version CSS
-        run: sed -i -E "s/main\.min\.css\?[0-9A-Za-z]*/main.min.css\?$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8)/gm" arise-source/config/header.html 
+        run: sed -i -E "s/main\.min\.css\?[0-9A-Za-z]*/main.css\?$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8)/gm" arise-source/config/header.html 
 
       - name: Build Arise
         run: bash arise build
