@@ -3,64 +3,64 @@
   <channel>
     <title>Cyberia</title>
     <description>A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes.</description>
-    <link>https://blog.robeson.me</link>
+    <link>https://cyberia.robeson.me</link>
     <language>en</language>
     <generator>Arise</generator>
     <image>
-      <url>https://blog.robeson.me/config/favicon/favicon.ico</url>
+      <url>https://cyberia.robeson.me/config/favicon/favicon.ico</url>
       <title>Cyberia</title>
-      <link>https://blog.robeson.me</link>
+      <link>https://cyberia.robeson.me</link>
     </image>
-    <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://cyberia.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Fri, 14 Feb 2025 20:58:34 +0000</lastBuildDate>
+<lastBuildDate>Sat, 15 Feb 2025 02:59:59 +0000</lastBuildDate>
         <item>
         <title>How did the transporter chief figure that out?</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Transporter operators as video game players.</description>
-        <link>https://blog.robeson.me/shower_thoughts/shower_thoughts_001/</link>
+        <link>https://cyberia.robeson.me/shower_thoughts/shower_thoughts_001/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>The Blog</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Blog - So far</description>
-        <link>https://blog.robeson.me/posts/the_blog/</link>
+        <link>https://cyberia.robeson.me/posts/the_blog/</link>
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Blog, Day 1</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>A new blog, day one</description>
-        <link>https://blog.robeson.me/posts/day_one/</link>
+        <link>https://cyberia.robeson.me/posts/day_one/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>New Logo!</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>We have a new logo - such as it is. My first use of Inkscape.</description>
-        <link>https://blog.robeson.me/posts/new_logo/</link>
+        <link>https://cyberia.robeson.me/posts/new_logo/</link>
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>We Have Comments</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Blog improvements - Adding self hosted comments.</description>
-        <link>https://blog.robeson.me/posts/we_have_comments/</link>
+        <link>https://cyberia.robeson.me/posts/we_have_comments/</link>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Privacy details for the website.</description>
-        <link>https://blog.robeson.me/privacy/</link>
+        <link>https://cyberia.robeson.me/privacy/</link>
         <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Irreverent Star Trek Reviewers</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Some of my favorite Star Trek YouTubers.</description>
-        <link>https://blog.robeson.me/recommendations/recommendations_trek_001/</link>
+        <link>https://cyberia.robeson.me/recommendations/recommendations_trek_001/</link>
         <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
