@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /config/*
 
 
-Sitemap: https://blog.robeson.me/sitemap.xml
+Sitemap: https://cyberia.robeson.me/sitemap.xml
