@@ -31,6 +31,7 @@ build_header() {
                 page_contents="${page_contents//\{\{canonical_url\}\}/"$canonical_url"}"
                 page_contents="${page_contents//\{\{base_url\}\}/"$base_url"}"
                 page_contents="${page_contents//\{\{global_name\}\}/"$global_name"}"
+                page_contents="${page_contents//\{\{site_logo\}\}/"$site_logo"}"
 
                 echo "$page_contents" > $1
                 page_contents=""
