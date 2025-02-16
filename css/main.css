@@ -282,6 +282,8 @@ tr:hover {
 .cmt-mod {
   width:fit-content;
   float:inline-start;
+  padding-left:12px;
+  padding-right:10px;
   clip-path: polygon(
     0px calc(100% - 6px),
     3px calc(100% - 6px),
