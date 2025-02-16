@@ -20,7 +20,7 @@ html * {
 body {
   background-color:var(--bgblack);
   margin:40px auto;
-  max-width:650px;
+  max-width:850px;
   line-height:1;
   font-size:14px;
   padding:0 10px;
