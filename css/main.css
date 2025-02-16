@@ -152,7 +152,7 @@ body {
 .logo {
   font-family:"ToshibaSat 8x14",monospace;
   width:100%;
-  font-size:clamp(12px, 1vw, 18px); 
+  font-size:clamp(8px, 2vw, 18px); 
   box-sizing:border-box;
   padding:10px;
   text-align:center;
