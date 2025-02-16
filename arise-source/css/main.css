@@ -1,3 +1,4 @@
+/* Color Presets */
 :root {
   --red:#e01f27;
   --orange:#f06151;
@@ -14,18 +15,9 @@
   --black:#00202e;
   --bgblack:#121619;
 }
-html * {
-  font-family:"ToshibaSat 8x14",sans-serif
-}
-body {
-  background-color:var(--bgblack);
-  margin:40px auto;
-  max-width:850px;
-  line-height:1;
-  font-size:14px;
-  padding:0 10px;
-  color:var(--white)
-}
+
+
+/* Fonts */
 @font-face {
   font-family:'ToshibaSat 8x14';
   src:url(https://cyberia.robeson.me/fonts/WebPlus_ToshibaSat_8x14.woff) format('woff');
@@ -38,6 +30,8 @@ body {
   font-weight:400;
   font-style:normal
 }
+
+/* Standard elements */
 ::selection {
   background-color:var(--red)
 }
@@ -126,11 +120,25 @@ td a {
 tr:hover {
   background:var(--red)
 }
-.crt-logo {
-  font-family:"ToshibaSat 8x14",monospace;
+
+
+
+/* Page elements */
+
+html * {
+  font-family:"ToshibaSat 8x14",sans-serif
+}
+body {
+  background-color:var(--bgblack);
+  margin:40px auto;
+  max-width:850px;
+  line-height:1;
   font-size:14px;
-  padding:10px;
-  text-align:center;
+  padding:0 10px;
+  color:var(--white)
+}
+
+.logobox {
   align-items:center;
   overflow:hidden;
   color:var(--yellow);
@@ -138,12 +146,20 @@ tr:hover {
   box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--orange);
   border:4px solid var(--darkgrey)
 }
+.logo {
+  font-family:"ToshibaSat 8x14",monospace;
+  font-size:14px;
+  padding:10px;
+  text-align:center;
+  align-items:center;
+  overflow:hidden;
+}
 @media screen and (max-width:600px) {
-  .crt-logo { 
+  .logo { 
     scale:75%;  }
 }
 @media screen and (max-width:525px) {
-  .crt-logo {
+  .logo {
     scale:50%;
   }
 }
