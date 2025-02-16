@@ -314,8 +314,8 @@ tr:hover {
   padding-bottom: 20px;
   margin-bottom: 20px;
   
-  background-color:var(--darkblue);
-  box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--lightblue);
+  background-color:var(--orange);
+  box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--darkblue);
 }
 button {
   font-size:13px;
