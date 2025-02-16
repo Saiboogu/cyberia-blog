@@ -268,8 +268,23 @@ tr:hover {
 }
 .cmt-author-line {
   background-color: var(--black);
- padding:8px;
-  
+  padding:8px;
+  margin-left: -6px;
+  margin-top: -6px;
+  width:102%;
+  display:inline-block;
+  border-bottom-width: 2px;
+  border-bottom-color:var(--lightblue)
+}
+.cmt-author {
+  float:inline-start;
+}
+.cmt-mod {
+  width:fit-content;
+  float:inline-start;
+}
+.cmt-date {
+  float:inline-end;
 }
 .w-full {
   padding-bottom: 20px;
