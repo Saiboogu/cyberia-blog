@@ -253,7 +253,7 @@ tr:hover {
     display:none
   }
 }
-.cmt-box, .comments {
+.cmt-box, .grid-cols-1, .my-4,.comments {
   font-size:14px;
   background-color:var(--darkgrey);
   color:var(--lightgrey);
@@ -265,6 +265,11 @@ tr:hover {
   border:4px solid var(--darkgrey);
   padding-bottom: 20px;
   margin-bottom: 20px;
+}
+.cmt-author-line {
+  background-color: var(--black);
+ padding:8px;
+  
 }
 .w-full {
   padding-bottom: 20px;
