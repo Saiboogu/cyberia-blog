@@ -139,13 +139,12 @@ tr:hover {
   border:4px solid var(--darkgrey)
 }
 @media screen and (max-width:600px) {
-  .crt-logo {
-    font-size:10px
-  }
+  .crt-logo { 
+    scale:75%;  }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:525px) {
   .crt-logo {
-    font-size:10px
+    scale:50%;
   }
 }
 .topbar {
