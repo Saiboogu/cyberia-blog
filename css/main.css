@@ -313,7 +313,7 @@ tr:hover {
 .w-full {
   padding-bottom: 20px;
   margin-bottom: 20px;
-  
+  color:var(--black);
   background-color:var(--orange);
   box-shadow:5px 5px 0 #000,inset 0 0 0 2px var(--darkblue);
 }
