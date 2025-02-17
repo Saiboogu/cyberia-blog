@@ -303,12 +303,30 @@ tr:hover {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--black);
 }
-/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
-.cmt-author {
-  float:inline-start;
-  font-size:0.9rem;
+@media screen and (max-width:500px) {
+  .cmt-author-line {
+    height:7rem;
+    display:grid;
+  }
+  .cmt-author, .cmt-date, .cmt-mod {
+    font-size:0.7rem;
+    float:inherit;
+  }
 }
-/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
+@media screen and (min-width:501px) {
+  .cmt-author {
+    float:inline-start;
+    font-size:0.9rem;
+  }
+  .cmt-date {
+    font-size:0.7rem;
+    float:inline-end;
+  }
+}
+.cmt-author {
+
+  color:var(--lightgrey)
+}
 .cmt-mod {
   width:fit-content;
   float:inline-start;
@@ -344,8 +362,8 @@ tr:hover {
 }
 /* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-date {
-  float:inline-end;
-  font-size:0.7rem;
+  
+
 }
 .cmt-message::before {
   content:"MESSAGE: ";
