@@ -32,6 +32,19 @@
 }
 
 /* Standard elements */
+
+html * {
+  font-family:"ToshibaSat 8x14",sans-serif;
+  padding:0.5rem;
+  font-size:20px;
+}
+body {
+  background-color:var(--bgblack);
+  margin:2rem auto;
+  max-width:850px;
+  line-height:1;
+  color:var(--white)
+}
 ::selection {
   background-color:var(--red)
 }
@@ -125,17 +138,7 @@ tr:hover {
 
 /* Page elements */
 
-html * {
-  font-family:"ToshibaSat 8x14",sans-serif;
-  padding:0.5rem;
-}
-body {
-  background-color:var(--bgblack);
-  margin:2rem auto;
-  max-width:850px;
-  line-height:1;
-  color:var(--white)
-}
+
 
 .logobox {
   align-items:center;
@@ -192,12 +195,12 @@ body {
   }
 }
 .footer {
-  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 2px var(--orange);
+  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--orange);
   border:0.4rem solid var(--darkgrey);
   color:var(--lightgrey);
   background-color:var(--darkgrey);
-  font-size:12px;
-  margin-top:120px;
+  font-size:0.8rem;
+  margin-top:4rem;
   text-align:center
 }
 .footer a {
@@ -267,31 +270,35 @@ body {
   color:var(--lightgrey);
   display:block;
   width:95%;
-  line-height: 1.5;
-  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
-  border:0.4rem solid var(--darkgrey);
+  line-height: 1.2;
+  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.4rem var(--lightblue);
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
 .cmt-author-line {
   background-color: var(--black);
-  margin-left: -6px;
-  margin-top: -6px;
-  width:102%;
   display:inline-block;
-  border-bottom-width: 2px;
-  border-bottom-color:var(--lightblue)
+  float:right;
+  margin: 0.8rem;
+  height:3.5rem;
+  padding: 0.3rem;
+  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
+  border:0.4rem solid var(--black);
 }
+/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-author {
   float:inline-start;
+  font-size:0.9rem;
 }
-
-/* pixeled round corners from https://pixelcorners.lukeb.co.uk/?radius=2&multiplier=1 */
+/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-mod {
   width:fit-content;
   float:inline-start;
+  scale:70%;
+  font-size:1rem;
   padding-left:0.6rem;
-  padding-right:0.5rem;
+  padding-right:0.5rem;  
+  /* pixeled round corners from https://pixelcorners.lukeb.co.uk/?radius=2&multiplier=1 */
   clip-path: polygon(
     0px calc(100% - 6px),
     3px calc(100% - 6px),
@@ -315,12 +322,22 @@ body {
     0px 6px
   );
 }
+/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-date {
   float:inline-end;
+  font-size:0.7rem;
 }
-.w-full {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+.cmt-message p {
+  font-size:0.8rem;
+  min-height: 3rem;
+}
+.grid-cols-2 {
+  width:100%;
+}
+.cmt-reply {
+  width:99%;
+}
+.cmt-input {
   color:var(--black);
   background-color:var(--orange);
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--darkblue);
@@ -331,7 +348,7 @@ button {
   color:var(--black);
   display:block;
   width:fit-content;
-  padding:0.4rem;
+  padding:0.5rem;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--black);
-  border:0.4rem solid var(--yellow)
+  border:0.2rem solid var(--yellow)
 }
