@@ -1,0 +1,4 @@
+#/bin/bash
+yes | ./arise build -f
+for i in $(grep -ril cyberia.robeson.me arise-out/); do echo "Fixing $i"; sed -i 's/cyberia\.robeson\.me/zippy-passenger\.surge\.sh/g' $i; done
+surge arise-out/
