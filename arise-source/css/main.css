@@ -171,7 +171,14 @@ tr:hover {
 .topbar a {
   color:var(--yellow);
   text-decoration:none;
-  white-space:nowrap
+  white-space:nowrap;
+  font-size:0.8rem;
+}
+.topbar a::before {
+  content: "[";
+}
+.topbar a::after {
+  content: "]";
 }
 .date {
   font-size:13px;
