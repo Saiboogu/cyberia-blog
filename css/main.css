@@ -124,6 +124,7 @@ h1 {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
+
 tr:nth-child(odd) {
   background-color:var(--darkgrey)
 }
@@ -270,8 +271,17 @@ tr:hover {
 }
 
 
+.comments {
+  background-color:var(--darkgrey);
+  color:var(--yellow);
+  font-size:1.2rem;
+  padding:0.5rem;
+  box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
+  border:0.4rem solid var(--darkgrey)
+}
+
 /* Cusdis Classes */
-.cmt-box, .grid-cols-1, .my-4,.comments {
+.cmt-box, .grid-cols-1, .my-4 {
   font-size:0.8rem;
   background-color:var(--darkgrey);
   color:var(--lightgrey);
@@ -286,7 +296,8 @@ tr:hover {
   background-color: var(--black);
   display:inline-block;
   float:right;
-  margin: 0.8rem;
+  margin: 0.3rem;
+  margin-right: 0.7rem;
   height:3.5rem;
   padding: 0.3rem;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
@@ -301,8 +312,10 @@ tr:hover {
 .cmt-mod {
   width:fit-content;
   float:inline-start;
-  scale:70%;
-  font-size:1rem;
+  color:var(--red);
+  display:block;
+  background-color:var(--bgblack);
+  scale:60%;
   padding-left:0.6rem;
   padding-right:0.5rem;  
   /* pixeled round corners from https://pixelcorners.lukeb.co.uk/?radius=2&multiplier=1 */
