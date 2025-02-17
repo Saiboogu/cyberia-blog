@@ -374,6 +374,7 @@ tr:hover {
   color:var(--red);
 }
 .cmts-footer a {
+  text-decoration: none;
 }
 .grid-cols-2 {
   width:100%;
