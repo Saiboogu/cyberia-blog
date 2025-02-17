@@ -30,7 +30,7 @@
         <meta property="og:image:alt" content="Blog improvements - Adding self hosted comments." />
         <meta property="og:image" content="https://cyberia.robeson.me/posts/we_have_comments/comments.svg" />
         <meta property="article:published_time" content="2025-01-17" />
-        <meta property="article:modified_time" content="2025-01-17" />
+        <meta property="article:modified_time" content="2025-02-16" />
 
         <!-- End OpenGraph Metadata -->
     
@@ -111,9 +111,28 @@ remembered to search “self hosted” first and found <a
 href="https://github.com/djyde/cusdis">Cusdis</a>. I tried their hosted
 version just long enough to see it was workable, then put up a self
 hosted instance so I could dig in and start tweaking it.</p>
-<p>Had to tweak the iframe heigth already, it was claustrophobically
+<p>Had to tweak the iframe height already, it was claustrophobically
 short and I didn’t like the CSS hacks I was using to try and make it
 taller from Arise instead of Cusdis.</p>
+<p><em>02/12/25 Update</em> - I finally stopped hacking away at
+generated JavaScript and learned how to build my own Cusdis Docker image
+from a fork of the repo. I spent a long time figuring out how to get old
+branches that must have compiled at that time to compile today - turns
+out the simplest solution was just removing every carot ^ from the
+packages file, so nothing can get upgraded. But after figuring that out
+and poking around some more I found the newestr branch and got it
+compiling. I learned how to apply the hacks I had in the JavaScript into
+the TypeScript, and it’s been a lot easier.</p>
+<p>Cusdis uses Tailwind CSS styling, which I actually thought about
+learning at one point – But I decided I need to learn CSS itself first,
+so I’ve been slowly stripping away the Tailwind classes and styling
+things with “Cyberia Theme” classes from the blog theme.</p>
+<p>I’m still not a fan of the height - it’s tall enough, until it’s not
+and you wind up scrolling again. I’m looking at ways to resize it, but
+evidently they’re all a bit hacky - and require adding more JavaScript.
+I’ve been trying to stick to CSS only, but Cusdis definitely needs some
+JavaScript, so a tiny bit more for the iframe resizing is probably
+OK.</p>
 <br/>
 <br/>
 <h2>Comments <svg width="14px" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

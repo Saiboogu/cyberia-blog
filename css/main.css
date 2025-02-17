@@ -334,6 +334,11 @@ tr:hover {
   float:inline-end;
   font-size:0.7rem;
 }
+.cmt-message::before {
+  content:"MESSAGE: ";
+  color:var(--red);
+  font-size:0.9rem;
+}
 .cmt-message p {
   font-size:0.8rem;
   min-height: 3rem;
