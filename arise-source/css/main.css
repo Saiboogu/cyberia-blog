@@ -423,10 +423,17 @@ button {
     min-height: 4rem;
     font-size: 0.75rem;
   }
+   button {
+    font-size: 0.5rem;
+  }
 }
 @media screen and (min-width:501px) {
-  .root {
+  .dark div, .dark p, .cmt-mod {
     font-size: 0.8rem;
+  }
+  .cmt-author-line {
+    height:auto;
+    display:inline-block;
   }
   .cmt-author {
     float:inline-start;
@@ -435,9 +442,14 @@ button {
     float:inline-end;
   }
   .cmt-mod {
+  scale:60%;
+   padding:0.2rem;
   float:inline-start;
   }
   .cmt-message p {
     min-height: 3rem;
+  }
+  button {
+    font-size: 0.8rem;
   }
 }
