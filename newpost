@@ -40,12 +40,12 @@ while true; do
     fi
 
     # Create lowercase, underscored version of title for folder name
-    post_slug=$(echo "$post_title" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr -s ' ' | sed 's/^ *//;s/ *$//' | tr ' ' '_')
+    post_slug=$(echo "$post_title" | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | tr -s ' ' | sed 's/^ *//;s/ *$//' | tr ' ' '-')
 
     # Prompt user to accept this automatic slug by pressing enter, or enter a new one
     while true; do
         read -p "Post Slug: $post_slug (press enter to accept, or enter a new one): " new_slug
-        [[ -n "$new_slug" ]] && post_slug=$(echo $new_slug | tr '[:upper:]' '[:lower:]' | tr ' ' '_')
+        [[ -n "$new_slug" ]] && post_slug=$(echo $new_slug | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
         [[ "$post_slug" =~ ^[a-z0-9_-]+$ ]] && break || echo "Invalid slug format"
     done
 
@@ -84,7 +84,7 @@ printf "============== Creating New $dir ==============\n"
 printf "copying template to $dir/$post_slug ....\n"
 
 # Create new post folder and copy template files
-cp -r arise-source/config/new_post_template arise-source/$dir/$post_slug
+cp -r arise-source/config/new-post-template arise-source/$dir/$post_slug
 printf "Setting date and title in index.md .....\n"
 
 # Set date and title in post markdown file
