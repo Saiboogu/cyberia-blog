@@ -409,6 +409,7 @@ tr:hover {
   color:var(--black);
   background-color:var(--orange);
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--darkblue);
+  caret-color: var(--black);
 }
 button {
   font-size:0.8rem;
