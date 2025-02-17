@@ -405,8 +405,7 @@ tr:hover {
 }
 /* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-date {
-  
-
+ 
 }
 .cmt-message::before {
   content:"MESSAGE: ";
@@ -418,6 +417,10 @@ tr:hover {
 }
 .cmt-reply {
   width:99%;
+}
+.cmt-required_warn {
+  color:var(--red);
+  float:right;
 }
 .cmt-input {
   color:var(--black);
