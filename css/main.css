@@ -107,7 +107,7 @@ h1 {
   display:block;
   width:fit-content;
   max-width:46%;
-  padding:8px;
+  padding:0.5rem;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
@@ -127,14 +127,13 @@ tr:hover {
 
 html * {
   font-family:"ToshibaSat 8x14",sans-serif;
-  font-size:20px;
+  padding:0.5rem;
 }
 body {
   background-color:var(--bgblack);
   margin:2rem auto;
   max-width:850px;
   line-height:1;
-  padding:0 0.5rem;
   color:var(--white)
 }
 
@@ -155,18 +154,14 @@ body {
   width:100%;
   font-size: clamp(.4rem, 2vw, 1rem);
   box-sizing:border-box;
-  padding:10px;
   text-align:center;
   align-items:center;
   overflow:hidden;
 }
 .topbar {
-  padding:8px;
   color:var(--orange);
   background-color:var(--darkblue);
   text-align:center;
-  display:block;
-  align-self:right;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--orange);
   border:0.4rem solid var(--darkblue)
 }
@@ -181,7 +176,6 @@ body {
   color:var(--lightgrey);
   display:block;
   width:fit-content;
-  padding:8px;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
@@ -223,7 +217,6 @@ body {
   border-color:var(--yellow);
   border-top-style:solid;
   text-align:left;
-  padding:6px;
   white-space:nowrap
 }
 .arise-toc-td-title {
@@ -232,7 +225,6 @@ body {
   border-color:var(--yellow);
   border-top-style:solid;
   text-align:left;
-  padding:6px
 }
 .arise-toc-td-desc {
   vertical-align:top;
@@ -240,7 +232,6 @@ body {
   border-color:var(--yellow);
   border-top-style:solid;
   text-align:left;
-  padding:6px
 }
 .arise-toc-th-date {
   background-color:var(--darkgrey);
@@ -250,13 +241,11 @@ body {
 }
 .arise-toc-th-title {
   background-color:var(--darkgrey);
-  padding:8px;
   box-shadow:inset 0 0 0 2px var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
 .arise-toc-th-desc {
   background-color:var(--darkgrey);
-  padding:8px;
   box-shadow:inset 0 0 0 2px var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
@@ -273,21 +262,19 @@ body {
 
 /* Cusdis Classes */
 .cmt-box, .grid-cols-1, .my-4,.comments {
-  font-size:14px;
+  font-size:0.8rem;
   background-color:var(--darkgrey);
   color:var(--lightgrey);
   display:block;
   width:95%;
-  padding:.5rem;
   line-height: 1.5;
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--darkgrey);
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 .cmt-author-line {
   background-color: var(--black);
-  padding:8px;
   margin-left: -6px;
   margin-top: -6px;
   width:102%;
@@ -303,8 +290,8 @@ body {
 .cmt-mod {
   width:fit-content;
   float:inline-start;
-  padding-left:12px;
-  padding-right:10px;
+  padding-left:0.6rem;
+  padding-right:0.5rem;
   clip-path: polygon(
     0px calc(100% - 6px),
     3px calc(100% - 6px),
@@ -332,8 +319,8 @@ body {
   float:inline-end;
 }
 .w-full {
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   color:var(--black);
   background-color:var(--orange);
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--darkblue);
