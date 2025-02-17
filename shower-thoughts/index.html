@@ -10,36 +10,36 @@
         <meta name="HandheldFriendly" content="True" />
         <meta name="generator" content="Arise" />
 
-        <title>We Have Comments · Cyberia</title>
-        <meta name="description" content="Blog improvements - Adding self hosted comments.">
+        <title>Index: Shower Thoughts · Cyberia</title>
+        <meta name="description" content="My posts">
         <meta name="author" content="Ben Robeson">
         <!-- End Basic Metadata -->
 
         <!-- OpenGraph Metadata -->
         <meta property="og:site_name" content="Cyberia" />
-        <meta property="og:logo" content="https://cyberia.robeson.me/posts/we_have_comments/comments.svg" />
+        <meta property="og:logo" content="https://cyberia.robeson.me/shower-thoughts/" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="We Have Comments · Cyberia" />
-        <meta property="og:description" content="Blog improvements - Adding self hosted comments." />
-        <meta property="og:url" content="https://cyberia.robeson.me/posts/we_have_comments/" />
+        <meta property="og:title" content="Index: Shower Thoughts · Cyberia" />
+        <meta property="og:description" content="My posts" />
+        <meta property="og:url" content="https://cyberia.robeson.me/shower-thoughts/" />
         <meta property="og:image" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:secure_url" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="652" /> 
         <meta property="og:image:height" content="138" /> 
-        <meta property="og:image:alt" content="Blog improvements - Adding self hosted comments." />
-        <meta property="og:image" content="https://cyberia.robeson.me/posts/we_have_comments/comments.svg" />
-        <meta property="article:published_time" content="2025-01-17" />
-        <meta property="article:modified_time" content="2025-02-16" />
+        <meta property="og:image:alt" content="My posts" />
+        <meta property="og:image" content="https://cyberia.robeson.me/shower-thoughts/" />
+        <meta property="article:published_time" content="" />
+        <meta property="article:modified_time" content="" />
 
         <!-- End OpenGraph Metadata -->
     
         <!-- Twitter Metadata -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="We Have Comments · Cyberia" />
-        <meta name="twitter:description" content="Blog improvements - Adding self hosted comments." />
-        <meta name="twitter:url" content="https://cyberia.robeson.me/posts/we_have_comments/" />
-        <meta name="twitter:image" content="https://cyberia.robeson.me/posts/we_have_comments/comments.svg" />
+        <meta name="twitter:title" content="Index: Shower Thoughts · Cyberia" />
+        <meta name="twitter:description" content="My posts" />
+        <meta name="twitter:url" content="https://cyberia.robeson.me/shower-thoughts/" />
+        <meta name="twitter:image" content="https://cyberia.robeson.me/shower-thoughts/" />
         <!-- End Twitter Metadata -->
 
 
@@ -79,7 +79,7 @@
                 <a href="/">HOME</a>
                 <a href="/posts">POSTS</a>
                 <a href="/recommendations">RECOMMENDATIONS</a>
-                <a href="/shower_thoughts">RANDOM THOUGHTS</a>
+                <a href="/shower-thoughts">RANDOM THOUGHTS</a>
                 <a href="/privacy/">PRIVACY</a><a href="https://github.com/Saiboogu" target="_blank">GITHUB</a>
         </nav>
         <!-- End Navigation -->
@@ -96,62 +96,17 @@
 </head>
 
 <body style="background-color: #121619;">
-<p class="date">// 2025-01-17 // <i>by Ben Robeson</i></p>
-<h1 id="comment-away..">Comment away..</h1>
-<div class="article_pic" style="float:left;margin-right:8px;">
-<svg xmlns="http://www.w3.org/2000/svg" width="64px" viewBox="0 -960 960 960" fill="#e8eaed">
-<path d="M880-80 720-240H160q-33 0-56.5-23.5T80-320v-480q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v720ZM160-320h594l46 45v-525H160v480Zm0 0v-480 480Z"/>
-</svg>
-</div>
-Bit of a “Build it, and they (might) come (eventually). That’s fine,
-this is all practice and education.
-<p/>
-<p>I thought I would toss something like Disqus on here, but I
-remembered to search “self hosted” first and found <a
-href="https://github.com/djyde/cusdis">Cusdis</a>. I tried their hosted
-version just long enough to see it was workable, then put up a self
-hosted instance so I could dig in and start tweaking it.</p>
-<p>Had to tweak the iframe height already, it was claustrophobically
-short and I didn’t like the CSS hacks I was using to try and make it
-taller from Arise instead of Cusdis.</p>
-<p><em>02/12/25 Update</em> - I finally stopped hacking away at
-generated JavaScript and learned how to build my own Cusdis Docker image
-from a fork of the repo. I spent a long time figuring out how to get old
-branches that must have compiled at that time to compile today - turns
-out the simplest solution was just removing every carot ^ from the
-packages file, so nothing can get upgraded. But after figuring that out
-and poking around some more I found the newestr branch and got it
-compiling. I learned how to apply the hacks I had in the JavaScript into
-the TypeScript, and it’s been a lot easier.</p>
-<p>Cusdis uses Tailwind CSS styling, which I actually thought about
-learning at one point – But I decided I need to learn CSS itself first,
-so I’ve been slowly stripping away the Tailwind classes and styling
-things with “Cyberia Theme” classes from the blog theme.</p>
-<p>I’m still not a fan of the height - it’s tall enough, until it’s not
-and you wind up scrolling again. I’m looking at ways to resize it, but
-evidently they’re all a bit hacky - and require adding more JavaScript.
-I’ve been trying to stick to CSS only, but Cusdis definitely needs some
-JavaScript, so a tiny bit more for the iframe resizing is probably
-OK.</p>
-<br/>
-<br/>
-<div class="comments"><h2><svg class="flip" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
-  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
-</svg>Comments <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
-  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
-</svg>
-</h2>
-</div>
-
-<div id="cusdis_thread"
-  data-host="https://cusdis.robeson.me"
-  data-app-id="c0913957-1f31-4fb8-9bb8-8da492d3539d"
-  data-page-id="/posts/we_have_comments/"
-  data-page-url="https://cyberia.robeson.me/posts/we_have_comments/"
-  data-page-title="We Have Comments"
-  data-theme="dark"
-></div>
-<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>
+        <h1>Index: Shower Thoughts</h1> 
+        <p id="arise-toc">
+        <table id="arise-toc-table">
+        <tr class="arise-toc-tr">
+                <th class="arise-toc-th-date" style="width:10%">Date</th>
+                <th class="arise-toc-th-title" style="width:30%">Title</th>
+                <th class="arise-toc-th-desc" style="width:60%">Description</th>
+        </tr>
+<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/shower-thoughts/001-transporter-problems/">2025-01-12</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/shower-thoughts/001-transporter-problems/">How did the transporter chief figure that out?</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/shower-thoughts/001-transporter-problems/">Transporter operators as video game players.</a></td></tr>
+        </table>
+        </p>
 
         <!-- Page Footer -->
         <div class="footer">

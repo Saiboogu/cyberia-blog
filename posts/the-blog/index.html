@@ -10,36 +10,36 @@
         <meta name="HandheldFriendly" content="True" />
         <meta name="generator" content="Arise" />
 
-        <title>Index: Shower Thoughts · Cyberia</title>
-        <meta name="description" content="My posts">
+        <title>The Blog · Cyberia</title>
+        <meta name="description" content="Blog - So far">
         <meta name="author" content="Ben Robeson">
         <!-- End Basic Metadata -->
 
         <!-- OpenGraph Metadata -->
         <meta property="og:site_name" content="Cyberia" />
-        <meta property="og:logo" content="https://cyberia.robeson.me/shower_thoughts/" />
+        <meta property="og:logo" content="https://cyberia.robeson.me/posts/the-blog/" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Index: Shower Thoughts · Cyberia" />
-        <meta property="og:description" content="My posts" />
-        <meta property="og:url" content="https://cyberia.robeson.me/shower_thoughts/" />
+        <meta property="og:title" content="The Blog · Cyberia" />
+        <meta property="og:description" content="Blog - So far" />
+        <meta property="og:url" content="https://cyberia.robeson.me/posts/the-blog/" />
         <meta property="og:image" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:secure_url" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="652" /> 
         <meta property="og:image:height" content="138" /> 
-        <meta property="og:image:alt" content="My posts" />
-        <meta property="og:image" content="https://cyberia.robeson.me/shower_thoughts/" />
-        <meta property="article:published_time" content="" />
-        <meta property="article:modified_time" content="" />
+        <meta property="og:image:alt" content="Blog - So far" />
+        <meta property="og:image" content="https://cyberia.robeson.me/posts/the-blog/" />
+        <meta property="article:published_time" content="2025-01-20" />
+        <meta property="article:modified_time" content="2025-01-20" />
 
         <!-- End OpenGraph Metadata -->
     
         <!-- Twitter Metadata -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Index: Shower Thoughts · Cyberia" />
-        <meta name="twitter:description" content="My posts" />
-        <meta name="twitter:url" content="https://cyberia.robeson.me/shower_thoughts/" />
-        <meta name="twitter:image" content="https://cyberia.robeson.me/shower_thoughts/" />
+        <meta name="twitter:title" content="The Blog · Cyberia" />
+        <meta name="twitter:description" content="Blog - So far" />
+        <meta name="twitter:url" content="https://cyberia.robeson.me/posts/the-blog/" />
+        <meta name="twitter:image" content="https://cyberia.robeson.me/posts/the-blog/" />
         <!-- End Twitter Metadata -->
 
 
@@ -79,7 +79,7 @@
                 <a href="/">HOME</a>
                 <a href="/posts">POSTS</a>
                 <a href="/recommendations">RECOMMENDATIONS</a>
-                <a href="/shower_thoughts">RANDOM THOUGHTS</a>
+                <a href="/shower-thoughts">RANDOM THOUGHTS</a>
                 <a href="/privacy/">PRIVACY</a><a href="https://github.com/Saiboogu" target="_blank">GITHUB</a>
         </nav>
         <!-- End Navigation -->
@@ -96,17 +96,66 @@
 </head>
 
 <body style="background-color: #121619;">
-        <h1>Index: Shower Thoughts</h1> 
-        <p id="arise-toc">
-        <table id="arise-toc-table">
-        <tr class="arise-toc-tr">
-                <th class="arise-toc-th-date" style="width:10%">Date</th>
-                <th class="arise-toc-th-title" style="width:30%">Title</th>
-                <th class="arise-toc-th-desc" style="width:60%">Description</th>
-        </tr>
-<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="/shower_thoughts/shower_thoughts_001/">2025-01-12</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="/shower_thoughts/shower_thoughts_001/">How did the transporter chief figure that out?</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="/shower_thoughts/shower_thoughts_001/">Transporter operators as video game players.</a></td></tr>
-        </table>
-        </p>
+<p class="date">// 2025-01-20 // <i>by Ben Robeson</i></p>
+<h1 id="the-project">The Project</h1>
+<p>OK, so I’ve submitted the blog to Google, and turned on crawling in
+the robots.txt so I guess I’ve “launched.” There is still CSS work to
+do, and I have some ideas for improvements to Arise itself, but that’s
+for down the road.</p>
+<p>As I already mentioned, the blog is run with <a
+href="https://github.com/spectrasecure/arise">Arise</a>, a static
+website / blog generator that runs on Bash. It’s hardly the only static
+site generator out there, but this one had a few things going for
+it.</p>
+<ul>
+<li>Simple thing but I like the default theme. I’m not up to creating a
+whole theme from scratch (yet) so that was a nice perk.</li>
+<li>It’s built in Bash. I live in Bash all day long for work, and we’re
+encouraged to script tasks and share. More practice is always
+great.</li>
+<li>Arise is cloud-ready. Sure, I can run the Bash script locally and
+get generated output and I do that when I edit the Bash script itself,
+but the publication process depends on Github actions.</li>
+<li>Cloud-ready means I’m practicing using tools like Github Actions,
+Cloudflare Pages, and playing more with Cloudflare rules. I can also
+move the project to a few different cloud and Git platforms for practice
+down the line.
+<ul>
+<li>I’ve been in hosting support for a few years now and have had to
+support clients using these tools, so the hands on work is
+indespensible.</li>
+</ul></li>
+<li>The <a href="/posts/we_have_comments">comment</a> system is also
+self hosted. It is a more classic self hosted app, running in a docker
+container on my home server - then using a Cloudflare tunnel to host
+worldwide.</li>
+</ul>
+<hr />
+<p><img height="136px" width="500px" src="github_activity.webp?v0" alt="A grid of all the days in a year. All of them are black except the last week which is green"></p>
+<p>And it does great things for my Github contributions chart.</p>
+<p>Of course, I need to start working with public repos too. Tempted to
+fork Cusdis because it’s not clear how active it is, and the self hosted
+instance is full of plan information for their hosted version - but I
+may be speaking too optimistically right now. We’ll see.</p>
+<br/>
+<br/>
+<div class="comments"><h2><svg class="flip" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
+</svg>Comments <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
+</svg>
+</h2>
+</div>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.robeson.me"
+  data-app-id="c0913957-1f31-4fb8-9bb8-8da492d3539d"
+  data-page-id="/posts/the-blog/"
+  data-page-url="https://cyberia.robeson.me/posts/the-blog/"
+  data-page-title="The Blog"
+  data-theme="dark"
+></div>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>
 
         <!-- Page Footer -->
         <div class="footer">
