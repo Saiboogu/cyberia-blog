@@ -217,12 +217,15 @@ tr:hover {
   border:0.4rem solid var(--darkgrey);
   color:var(--lightgrey);
   background-color:var(--darkgrey);
-  font-size:0.8rem;
   margin-top:4rem;
   text-align:center
 }
+.footer p, .footer span, .footer a {
+  font-size: 0.6rem;
+}
 .footer a {
-  color:var(--orange)
+  color:var(--orange);
+  padding:0.2rem;
 }
 /* Disable the ::before and ::after pseudo-elements in the footer */
 .footer a::before {
@@ -306,7 +309,6 @@ tr:hover {
 
 /* Cusdis Classes */
 .cmt-box, .grid-cols-1, .my-4 {
-  font-size:0.8rem;
   background-color:var(--darkgrey);
   color:var(--lightgrey);
   display:block;
@@ -327,56 +329,14 @@ tr:hover {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--black);
 }
-@media screen and (max-width:500px) {
-  .cmt-author-line {
-    height:3.8rem;
-    display:inline-block;
-  }
-  .cmt-author, .cmt-mod {
-    font-size:0.7rem;
-    line-height:0.5rem;
-    float:inline-start;
-  }
-  .cmt-mod {
-    float: inline-start;
-  }
-  .cmt-date {
-    font-size:0.7rem;
-    line-height:0.5rem;
-    
-  }
-  .cmt-message p {
-    font-size:0.8rem;
-    min-height: 4rem;
-  }
-}
-@media screen and (min-width:501px) {
-  .cmt-author {
-    float:inline-start;
-    font-size:0.9rem;
-  }
-  .cmt-date {
-    font-size:0.7rem;
-    float:inline-end;
-  }
-  .cmt-mod {
-  float:inline-start;
-  }
-  .cmt-message p {
-    font-size:0.8rem;
-    min-height: 3rem;
-  }
-}
 .cmt-author {
-
-  color:var(--lightgrey)
+ color:var(--orange)
 }
 .cmt-mod {
   width:fit-content;
   color:var(--red);
   display:block;
   background-color:var(--bgblack);
-  scale:60%;
   padding-left:0.6rem;
   padding-right:0.5rem;  
   /* pixeled round corners from https://pixelcorners.lukeb.co.uk/?radius=2&multiplier=1 */
@@ -403,14 +363,14 @@ tr:hover {
     0px 6px
   );
 }
-/* This is getting colored from the cusdis tailwind css and I need to migrate it to cyberia */
 .cmt-date {
- 
+ color:var(--white)
 }
 .cmt-message::before {
   content:"MESSAGE: ";
   color:var(--red);
-  font-size:0.9rem;
+}
+.cmts-footer a {
 }
 .grid-cols-2 {
   width:100%;
@@ -428,7 +388,6 @@ tr:hover {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--darkblue);
 }
 button {
-  font-size:0.8rem;
   background-color:var(--yellow);
   color:var(--black);
   display:block;
@@ -437,3 +396,48 @@ button {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--black);
   border:0.2rem solid var(--yellow)
 } 
+
+/* Cusdis Media Queries */
+@media screen and (max-width:500px) {
+  .dark div, .dark p, .cmt-mod {
+    font-size: 0.6rem;
+  }
+  .cmt-author-line {
+    height:6em;
+    display:inline-block;
+    
+  }
+  .cmt-author, .cmt-mod {
+    line-height:0.5em;
+    float:inline-start;
+  }
+  .cmt-mod {
+    float: inline-start;
+    scale: 60%;
+  }
+  .cmt-date {
+    line-height:0.5rem;
+    
+  }
+  .cmt-message p, .cmt-message::before {
+    min-height: 4rem;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width:501px) {
+  .root {
+    font-size: 0.8rem;
+  }
+  .cmt-author {
+    float:inline-start;
+  }
+  .cmt-date {
+    float:inline-end;
+  }
+  .cmt-mod {
+  float:inline-start;
+  }
+  .cmt-message p {
+    min-height: 3rem;
+  }
+}
