@@ -96,6 +96,9 @@ hr {
   margin-right:auto;
   max-width:300px
 }
+em {
+  color:var(--orange)
+}
 #endline {
   color:var(--yellow);
   margin-left:auto;
@@ -221,11 +224,11 @@ tr:hover {
   text-align:center
 }
 .footer p, .footer span, .footer a {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
+  padding:0.1rem;
 }
 .footer a {
   color:var(--orange);
-  padding:0.2rem;
 }
 /* Disable the ::before and ::after pseudo-elements in the footer */
 .footer a::before {
