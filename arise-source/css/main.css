@@ -296,6 +296,8 @@ tr:hover {
 }
 .comments .flip {
   transform: scaleX(-1);
+  margin-left:-1rem;
+  margin-right:1rem;
 }
 .comments h2 {
   text-align:center;
