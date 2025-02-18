@@ -20,13 +20,13 @@
 /* Fonts */
 @font-face {
   font-family:'ToshibaSat 8x14';
-  src:url(https://zippy-passenger.surge.sh/fonts/WebPlus_ToshibaSat_8x14.woff) format('woff');
+  src:url(https://cyberia.robeson.me/fonts/WebPlus_ToshibaSat_8x14.woff) format('woff');
   font-weight:400;
   font-style:normal
 }
 @font-face {
   font-family:'ToshibaSat 8x8';
-  src:url(https://zippy-passenger.surge.sh/fonts/Web437_ToshibaSat_8x8.woff) format('woff');
+  src:url(https://cyberia.robeson.me/fonts/Web437_ToshibaSat_8x8.woff) format('woff');
   font-weight:400;
   font-style:normal
 }
