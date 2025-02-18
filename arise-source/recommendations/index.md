@@ -2,7 +2,7 @@
 Title:: "Index: Recommendations"
 
 Author:: "Ben Robeson"
-Description:: "My posts"
+Description:: "Suggestion posts, things I like and want to share."
 Language:: "en"
 Thumbnail:: ""
 Published Date:: ""

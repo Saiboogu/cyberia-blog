@@ -20,6 +20,7 @@ build_header index.html
 # Add the title and start of the table for the TOC
 cat >> index.html <<EOF
         <h1>$title</h1> 
+        <p>$description</p>
         <p id="arise-toc">
         <table id="arise-toc-table">
         <tr class="arise-toc-tr">

@@ -1,5 +1,5 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: ""
+Title:: "The Blog"
 
 Author:: "Ben Robeson"
 Description:: "A personal blog. Tech, Trek (scifi overall), Random thoughts. We'll see where it goes."

@@ -2,7 +2,7 @@
 Title:: "Index: Shower Thoughts"
 
 Author:: "Ben Robeson"
-Description:: "My posts"
+Description:: "Random strange thoughts."
 Language:: "en"
 Thumbnail:: ""
 Published Date:: ""
