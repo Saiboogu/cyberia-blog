@@ -292,6 +292,7 @@ tr:hover {
   text-align:center
 }
 .arise-toc-modified-date {
+  margin-top:-1rem;
   float:inline-start;
   text-align:center
 }
