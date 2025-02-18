@@ -48,6 +48,14 @@ body {
 ::selection {
   background-color:var(--red)
 }
+ul {
+  margin: 0rem;
+  padding: 0.2rem;
+}
+ul li{
+  display: inline;
+  padding: 0rem;
+}
 img {
   max-width:100%;
   max-height:100%;
