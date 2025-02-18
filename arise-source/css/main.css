@@ -310,7 +310,8 @@ tr:hover {
 }
 .comments h2 {
   text-align:center;
-  
+  padding:0rem;
+  margin:0rem;
 }
 
 /* Main blog media queries */
