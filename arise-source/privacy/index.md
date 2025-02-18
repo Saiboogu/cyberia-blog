@@ -27,5 +27,5 @@ I am using self hosted <a href="https://plausible.io/self-hosted-web-analytics" 
 
 This is exactly what I see from Analytics. 
 <iframe plausible-embed src="https://analytics.robeson.me/share/cyberia.robeson.com?auth=yBXnk7OMKm2SpemPo2O1_&embed=true&theme=dark&background=transparent" scrolling="no" frameborder="0" loading="lazy" style="width: 1px; min-width: 100%; height: 1600px;"></iframe>
-<div class="powered">Stats powered by <a target="_blank"  href="https://plausible.io">Plausible Analytics</a></div>
+<div class="powered"><a target="_blank"  href="https://plausible.io">Stats powered by Plausible Analytics</a></div>
 <script async src="https://analytics.robeson.me/js/embed.host.js"></script>

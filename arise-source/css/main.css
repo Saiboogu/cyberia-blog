@@ -206,7 +206,14 @@ tr:hover {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--lightblue);
   border:0.4rem solid var(--darkgrey)
 }
+.powered {
+  text-align: center;
 
+}
+.powered, .powered a {
+  font-size: 0.8rem;
+  color:var(--orange);  
+}
 .footer {
   box-shadow:.5rem .5rem 0 #000,inset 0 0 0 0.2rem var(--orange);
   border:0.4rem solid var(--darkgrey);
@@ -335,7 +342,6 @@ tr:hover {
 }
 .cmt-author-line {
   background-color: var(--black);
-  display:inline-block;
   float:right;
   margin: 0.3rem;
   margin-right: 0.7rem;
@@ -424,7 +430,6 @@ button {
   }
   .cmt-author-line {
     height:6em;
-    display:inline-block;
     
   }
   .cmt-author, .cmt-mod {
@@ -453,7 +458,6 @@ button {
   }
   .cmt-author-line {
     height:auto;
-    display:inline-block;
   }
   .cmt-author {
     float:inline-start;
