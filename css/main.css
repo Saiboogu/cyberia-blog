@@ -186,13 +186,16 @@ tr:hover {
   color:var(--yellow);
   text-decoration:none;
   white-space:nowrap;
-  font-size:0.8rem;
+  font-size:1rem;
+  padding:0rem;
 }
 .topbar a::before {
   content: "[";
+  color:var(--red);
 }
 .topbar a::after {
   content: "]";
+  color:var(--red);
 }
 .date {
   font-size:13px;
@@ -391,9 +394,13 @@ tr:hover {
 .cmt-reply {
   width:99%;
 }
-.cmt-required_warn {
+.cmt-required-warn {
   color:var(--red);
   float:right;
+}
+.cmt-required-star::after {
+  content:"*";
+  color:var(--red);
 }
 .cmt-input {
   color:var(--black);
