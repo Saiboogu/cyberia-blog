@@ -185,19 +185,20 @@ tr:hover {
 .topbar a {
   color:var(--yellow);
   text-decoration:none;
+  text-transform: uppercase;
   white-space:nowrap;
   font-size:1rem;
   padding:0rem;
 }
 .topbar a::before {
   content: "[";
-  color:var(--red);
+  color:var(--bgblack);
 }
 .topbar a::after {
   content: "]";
-  color:var(--red);
+  color:var(--bgblack);
 }
-.date {
+.dateline {
   font-size:13px;
   background-color:var(--darkgrey);
   color:var(--lightgrey);
@@ -307,7 +308,7 @@ tr:hover {
 /* Main blog media queries */
 
 @media screen and (max-width:600px) {
-  .date { /* Wrap the date on small screens */
+  .dateline { /* Wrap the date on small screens */
     text-align:right
   }
   .arise-toc-td-desc { /* Hide the description on small screens */
@@ -318,7 +319,7 @@ tr:hover {
   }
 }
 @media screen and (min-width:601px) {
-  .date { /* Align the date to the right on wide screens */
+  .dateline { /* Align the date to the right on wide screens */
     float:right;
     margin-left:30px
   }
