@@ -273,7 +273,8 @@ tr:hover {
 .arise-toc-th-desc {
   background-color:var(--darkgrey);
   box-shadow:inset 0 0 0 2px var(--lightblue);
-  border:0.4rem solid var(--darkgrey)
+  border:0.4rem solid var(--darkgrey);
+  display:block;
 }
 
 
@@ -308,10 +309,10 @@ tr:hover {
     text-align:right
   }
   .arise-toc-td-desc { /* Hide the description on small screens */
-    display:none
+    display:none;
   }
   .arise-toc-th-desc { /* Hide the description on small screens */
-    display:none
+    display:none;
   }
 }
 @media screen and (min-width:601px) {
@@ -320,10 +321,11 @@ tr:hover {
     margin-left:30px
   }
   .arise-toc-td-desc { /* Show the description on wide screens */
-    display:inherit;
+    display:block;
   }
   .arise-toc-th-desc { /* Show the description on wide screens */
-    display:inherit;
+    display:block;
+    width:100%;
   }
 }
 
@@ -477,5 +479,4 @@ button {
     font-size: 0.8rem;
   }
 }
-
 
