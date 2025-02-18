@@ -23,7 +23,7 @@ As I already mentioned, the blog is run with [Arise](https://github.com/spectras
 * It's built in Bash. I live in Bash all day long for work, and we're encouraged to script tasks and share. More practice is always great.
 * Arise is cloud-ready. Sure, I can run the Bash script locally and get generated output and I do that when I edit the Bash script itself, but the publication process depends on Github actions.
 * Cloud-ready means I'm practicing using tools like Github Actions, Cloudflare Pages, and playing more with Cloudflare rules. I can also move the project to a few different cloud and Git platforms for practice down the line.
-  * I've been in hosting support for a few years now and have had to support clients using these tools, so the hands on work is indespensible. 
+  * I've been in hosting support for a few years now and have had to support clients using these tools, so the hands on work is indispensable. 
 * The [comment](/posts/we_have_comments) system is also self hosted. It is a more classic self hosted app, running in a docker container on my home server - then using a Cloudflare tunnel to host worldwide. 
 
 ****

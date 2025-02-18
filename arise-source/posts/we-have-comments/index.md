@@ -23,7 +23,7 @@ I thought I would toss something like Disqus on here, but I remembered to search
 Had to tweak the iframe height already, it was claustrophobically short and I didn't like the CSS hacks I was using to try and make it taller from Arise instead of Cusdis. 
 
 
-*02/12/25 Update* - I finally stopped hacking away at generated JavaScript and learned how to build my own Cusdis Docker image from a fork of the repo. I spent a long time figuring out how to get old branches that must have compiled at that time to compile today - turns out the simplest solution was just removing every carot ^ from the packages file, so nothing can get upgraded. But after figuring that out and poking around some more I found the newestr branch and got it compiling. I learned how to apply the hacks I had in the JavaScript into the TypeScript, and it's been a lot easier. 
+*02/12/25 Update* - I finally stopped hacking away at generated JavaScript and learned how to build my own Cusdis Docker image from a fork of the repo. I spent a long time figuring out how to get old branches that must have compiled at that time to compile today - turns out the simplest solution was just removing every caret ^ from the packages file, so nothing can get upgraded. But after figuring that out and poking around some more I found the newest branch and got it compiling. I learned how to apply the hacks I had in the JavaScript into the TypeScript, and it's been a lot easier. 
 
 Cusdis uses Tailwind CSS styling, which I actually thought about learning at one point -- But I decided I need to learn CSS itself first, so I've been slowly stripping away the Tailwind classes and styling things with "Cyberia Theme" classes from the blog theme. 
 
