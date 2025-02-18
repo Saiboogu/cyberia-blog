@@ -35,7 +35,8 @@ clear_metadata
 toc_tmp="arise-toc-$RANDOM.tmp"
 find . -mindepth 2 -maxdepth 2 -type f -name 'index.md' | while read fname; do
 get_page_metadata $fname
-echo '<tr class="arise-toc-tr"><td class="arise-toc-td-date"><a href="'"$relative_url"'">'"$published_date"'</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="'"$relative_url"'">'"$title"'</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="'"$relative_url"'">'"$description"'</a></td></tr>' >> $toc_tmp
+# HTML comment in A tag is my hacky solution to still sort them by date instead of URL and make the date a link to the post 
+echo '<tr class="arise-toc-tr"><td class="arise-toc-td-date"'"><!-- $published_date --><a href="'"'$relative_url'"><span arialabel="Published Date" class="arise-toc-published-date">'$published_date'</span><span arialabel="Modified Date" class="arise-toc-modified-date">'"$modified_date</span>"'</a></td><td class="arise-toc-td-title"><a tabindex="-1" href="'"$relative_url"'">'"$title"'</a></td><td class="arise-toc-td-desc"><a tabindex="-1" href="'"$relative_url"'">'"$description"'</a></td></tr>' >> $toc_tmp
 clear_metadata
 done
 
