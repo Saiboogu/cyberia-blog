@@ -8,7 +8,7 @@ Thumbnail:: "/images/cyberia.png"
 Published Date:: "2025-02-17"
 Modified Date:: "2025-02-18"
 
-content_header:: "true"
+content_header:: "false"
 toc:: "false"
 rss_hide:: "false"
 comments:: "true"
