@@ -47,11 +47,11 @@ jobs:
       - name: Version CSS
         run: sed -i -E "s/main\.min\.css\?[0-9A-Za-z]*/main.css\?$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8)/gm" arise-source/config/header.html 
 
-      - name: Build Arise
+        - name: Build Arise
         id: build
         run: |
-          if ! build_output=$(yes | ./arise build -f 2>&1); then
-            echo "::error::Build failed with output: $build_output"
+          if ! ./arise build -f; then
+            echo "::error::Build failed"
             exit 1
           fi
     
