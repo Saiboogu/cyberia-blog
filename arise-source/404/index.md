@@ -5,7 +5,7 @@ Author:: "Ben Robeson"
 Description:: "Longer title"
 Language:: "en"
 Thumbnail:: "/images/cyberia.png"
-Published Date:: "2025-02-18"
+Published Date:: "2025-02-17"
 Modified Date:: "2025-02-18"
 
 content_header:: "true"

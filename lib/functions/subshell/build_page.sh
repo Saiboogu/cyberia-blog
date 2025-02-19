@@ -9,7 +9,6 @@
 # build_page source.md
 
 build_page() (
-echo "Testing pre-commit hook"; exit 1
 # Switch to page directory
 page=$(basename $1)
 cd $(dirname $1)
