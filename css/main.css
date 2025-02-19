@@ -189,13 +189,13 @@ tr:hover {
     0.5rem 0.5rem 0 #000,
     inset 0 0 0 0.2rem var(--orange);
   color: var(--orange);
+  padding: 0.2rem 0 0.2rem 0;
   text-align: center;
 }
 .topbar a {
   color: var(--yellow);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.4rem;
-  padding: 0;
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
@@ -255,6 +255,9 @@ tr:hover {
   content: "";
 }
 /* Table of Contents */
+.arise-toc-tr a {
+  padding: 0.2rem;
+}
 .arise-toc-th-date {
   background-color: var(--darkgrey);
   border: 0.4rem solid var(--darkgrey);
