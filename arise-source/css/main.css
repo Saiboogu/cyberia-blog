@@ -16,7 +16,7 @@
   --yellow: #fbbd5e;
   /* Fonts */
   font-family: "ToshibaSat 8x14", sans-serif;
-  font-size: 20px;
+  font-size: clamp(12px, 0.8rem, 20px);
   padding: 0.5rem;
 }
 
