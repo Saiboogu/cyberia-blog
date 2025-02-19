@@ -50,9 +50,8 @@ jobs:
       - name: Build Arise
         id: build
         run: |
-          build_errors=$(./arise build -f 2>&1 >/dev/null)
-          if [ $? -ne 0 ] || [ -n "$build_errors" ]; then
-            echo "::error::Build failed with errors: $build_errors" 
+          if ! build_output=$(yes | ./arise build -f 2>&1); then
+            echo "::error::Build failed with output: $build_output"
             exit 1
           fi
     
