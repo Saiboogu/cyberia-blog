@@ -10,8 +10,8 @@ Modified Date:: "2025-02-18"
 
 content_header:: "false"
 toc:: "false"
-rss_hide:: "false"
-comments:: "true"
+rss_hide:: "true"
+comments:: "false"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
 
 <h1 class="error"><pre>
