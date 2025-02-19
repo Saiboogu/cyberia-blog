@@ -219,7 +219,9 @@ tr:hover {
   font-size: 13px;
   width: fit-content;
 }
-
+.error pre {
+  font-family: "ToshibaSat 8x14";
+}
 .powered {
   text-align: center;
 }
