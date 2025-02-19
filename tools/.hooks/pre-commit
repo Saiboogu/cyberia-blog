@@ -21,9 +21,9 @@ GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude=build-surge"
 check_and_replace_url() {
     local search_url=$1
     local target_url=$2
-    if grep -ril "$search_url" . "$grep_options"; then
+    if grep -ril "$search_url" . "$GREP_OPTIONS"; then
         echo "Replacing $search_url with $target_url"
-        grep -ril "$search_url" . "$grep_options" | while read -r i; do
+        grep -ril "$search_url" . "$GREP_OPTIONS" | while read -r i; do
             echo "Fixing $i"
             sed -i "s/$search_url/$target_url/g" "$i"
         done
