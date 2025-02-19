@@ -1,4 +1,7 @@
-#/bin/bash
+#!/bin/bash
 yes | ./arise build -f
-for i in $(grep -ril cyberia.robeson.me arise-out/); do echo "Fixing $i"; sed -i 's/cyberia\.robeson\.me/zippy-passenger\.surge\.sh/g' $i; done
+find arise-out/ -type f -exec grep -l cyberia.robeson.me {} \; | while read -r i; do
+    echo "Fixing $i"
+    sed -i 's/cyberia\.robeson\.me/zippy-passenger\.surge\.sh/g' "$i"
+done
 surge arise-out/
