@@ -13,7 +13,7 @@
     </image>
     <atom:link href="https://cyberia.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Wed, 19 Feb 2025 04:11:25 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Feb 2025 04:24:40 +0000</lastBuildDate>
         <item>
         <title>Blog, Day 1</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -57,9 +57,9 @@
         <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
-        <title>{{title}}</title>
+        <title>404</title>
         <dc:creator>Ben Robeson</dc:creator>
-        <description>Longer title</description>
+        <description>Page not found</description>
         <link>https://cyberia.robeson.me/404/</link>
         <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
         </item>
