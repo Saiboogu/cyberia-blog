@@ -1,8 +1,8 @@
 <!-- BEGIN ARISE ------------------------------
-Title:: "{{title}}"
+Title:: "404"
 
 Author:: "Ben Robeson"
-Description:: "Longer title"
+Description:: "Page not found"
 Language:: "en"
 Thumbnail:: "/images/cyberia.png"
 Published Date:: "2025-02-17"
