@@ -10,36 +10,36 @@
         <meta name="HandheldFriendly" content="True" />
         <meta name="generator" content="Arise" />
 
-        <title>The Blog · Cyberia</title>
-        <meta name="description" content="A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes.">
+        <title>{{title}} · Cyberia</title>
+        <meta name="description" content="Longer title">
         <meta name="author" content="Ben Robeson">
         <!-- End Basic Metadata -->
 
         <!-- OpenGraph Metadata -->
         <meta property="og:site_name" content="Cyberia" />
-        <meta property="og:logo" content="https://cyberia.robeson.me/images/cyberia.png" />
+        <meta property="og:logo" content="https://cyberia.robeson.me/config/new-post-template//images/cyberia.png" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="The Blog · Cyberia" />
-        <meta property="og:description" content="A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes." />
-        <meta property="og:url" content="https://cyberia.robeson.me/" />
+        <meta property="og:title" content="{{title}} · Cyberia" />
+        <meta property="og:description" content="Longer title" />
+        <meta property="og:url" content="https://cyberia.robeson.me/config/new-post-template/" />
         <meta property="og:image" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:secure_url" content="https://cyberia.robeson.me/images/cyberia-logo.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="652" /> 
         <meta property="og:image:height" content="138" /> 
-        <meta property="og:image:alt" content="A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes." />
-        <meta property="og:image" content="https://cyberia.robeson.me/images/cyberia.png" />
-        <meta property="article:published_time" content="2025-01-11" />
-        <meta property="article:modified_time" content="2025-02-12" />
+        <meta property="og:image:alt" content="Longer title" />
+        <meta property="og:image" content="https://cyberia.robeson.me/config/new-post-template//images/cyberia.png" />
+        <meta property="article:published_time" content="{{date}}" />
+        <meta property="article:modified_time" content="{{date}}" />
 
         <!-- End OpenGraph Metadata -->
     
         <!-- Twitter Metadata -->
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Blog · Cyberia" />
-        <meta name="twitter:description" content="A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes." />
-        <meta name="twitter:url" content="https://cyberia.robeson.me/" />
-        <meta name="twitter:image" content="https://cyberia.robeson.me/images/cyberia.png" />
+        <meta name="twitter:title" content="{{title}} · Cyberia" />
+        <meta name="twitter:description" content="Longer title" />
+        <meta name="twitter:url" content="https://cyberia.robeson.me/config/new-post-template/" />
+        <meta name="twitter:image" content="https://cyberia.robeson.me/config/new-post-template//images/cyberia.png" />
         <!-- End Twitter Metadata -->
 
 
@@ -97,33 +97,29 @@
 </head>
 
 <body>
-<h1 id="a-new-start-inspired-by-a-neat-tool">A new start, inspired by a
-neat tool</h1>
-<blockquote>
-<p>Arise is a static site generator written in Bash, designed to be a
-fusion of ultra-stable 90s technology and modern DevOps paradigms. Arise
-is designed around use cases like individual blogs and personal
-websites.</p>
-</blockquote>
-<p>That’s the stock blurb from this page, but now I’m speaking for
-myself. I haven’t had a website for myself for a few decades but I’ve
-been working with computers all my life, with linux much of my life, and
-in hosting for a few years now. I used to know HTML, I know a little
-about git, and nothing about CI/CD or cloud services so Arise seems like
-a perfect match for me. I get to refresh my old HTML skills, and learn
-some modern devops practices as well.</p>
-<p>02/12/25 - I underestimated CSS. Fortunately, I’m having fun figuring
-it out better.</p>
-<p>This page is hosted with Cloudflare (02/15/25 - Now AWS Amplify),
-built with Github actions. Pages are written in Markdown, and I’m trying
-out
-<a href="https://surge.sh/" rel="noopener" target="_blank">surge.sh</a>
-for staging.</p>
-<p>The theme began as the stock Arise theme and many aspects of that
-remain. I’ve been adjusting things though, and almost certainly will
-continue.</p>
-<p>02/12/25 - As of today, not much of the stock theme remains. It was
-an excellent start.</p>
+<p class="dateline">// {{date}} // <i class="author byline">by Ben Robeson</i></p>
+<h1 id="h1-blog-title">H1 Blog Title</h1>
+<p>New Page Documentation:
+https://github.com/Saiboogu/arise-blog/tree/blog-prod/docs/guides/creating-arise-pages</p>
+<br/>
+<br/>
+<div class="comments"><h2><svg class="flip" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
+</svg>Comments <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1rem">
+  <path d="M20 2H2v20h2V4h16v12H6v2H4v2h2v-2h16V2h-2z" fill="currentColor"></path>
+</svg>
+</h2>
+</div>
+
+<div id="cusdis_thread"
+  data-host="https://cusdis.robeson.me"
+  data-app-id="c0913957-1f31-4fb8-9bb8-8da492d3539d"
+  data-page-id="/config/new-post-template/"
+  data-page-url="https://cyberia.robeson.me/config/new-post-template/"
+  data-page-title="{{title}}"
+  data-theme="dark"
+></div>
+<script async defer src="https://cusdis.robeson.me/js/cusdis.es.js"></script>
 
         <!-- Page Footer -->
         <div class="footer">

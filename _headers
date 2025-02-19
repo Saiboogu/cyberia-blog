@@ -1,0 +1,21 @@
+/*
+  ! Access-Control-Allow-Origin
+
+/*.svg
+  Cache-Control: max-age=31536000
+/*.png
+  Cache-Control: max-age=31536000
+/*.jp*g
+  Cache-Control: max-age=31536000
+/*.gif
+  Cache-Control: max-age=31536000
+/*.ico
+  Cache-Control: max-age=31536000
+/*.webp
+  Cache-Control: max-age=31536000
+/*.css
+  Cache-Control: max-age=31536000
+/*.js
+  Cache-Control: max-age=31536000
+/posts/*.html
+  Cache-Control: max-age=86400

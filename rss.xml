@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
-    <title>saiboogu</title>
-    <description>Arise is the most polished cloud-native static site generator written in Bash.</description>
-    <link>https://blog.robeson.me</link>
+    <title>Cyberia</title>
+    <description>A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes.</description>
+    <link>https://cyberia.robeson.me</link>
     <language>en</language>
     <generator>Arise</generator>
     <image>
-      <url>https://blog.robeson.me/config/favicon/favicon.ico</url>
-      <title>saiboogu</title>
-      <link>https://blog.robeson.me</link>
+      <url>https://cyberia.robeson.me/favicon/favicon.ico</url>
+      <title>Cyberia</title>
+      <link>https://cyberia.robeson.me</link>
     </image>
-    <atom:link href="https://blog.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://cyberia.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Thu, 16 Jan 2025 03:39:02 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Feb 2025 20:51:17 +0000</lastBuildDate>
+        <item>
+        <title>Blog, Day 1</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>A new blog, day one</description>
+        <link>https://cyberia.robeson.me/posts/day-one/</link>
+        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>The Blog</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Blog - So far</description>
+        <link>https://cyberia.robeson.me/posts/the-blog/</link>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>We Have Comments</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Blog improvements - Adding self hosted comments.</description>
+        <link>https://cyberia.robeson.me/posts/we-have-comments/</link>
+        <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>New Logo!</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>We have a new logo - such as it is. My first use of Inkscape.</description>
+        <link>https://cyberia.robeson.me/posts/new-logo/</link>
+        <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Privacy Information</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Privacy details for the website.</description>
+        <link>https://cyberia.robeson.me/privacy/</link>
+        <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>Irreverent Star Trek Reviewers</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Some of my favorite Star Trek YouTubers.</description>
+        <link>https://cyberia.robeson.me/recommendations/recommendations-trek-001/</link>
+        <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>How did the transporter chief figure that out?</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Transporter operators as video game players.</description>
+        <link>https://cyberia.robeson.me/shower-thoughts/001-transporter-problems/</link>
+        <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
 </channel>
 </rss>

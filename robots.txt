@@ -1,5 +1,5 @@
 User-agent: * 
-Disallow: https://blog.robeson.me/config/*
-Disallow: https://blog.robeson.me/*
+Disallow: /config/*
 
-Sitemap: https://blog.robeson.me/sitemap.xml
+
+Sitemap: https://cyberia.robeson.me/sitemap.xml
