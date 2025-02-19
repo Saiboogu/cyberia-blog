@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Linting CSS on every change, before commit
+css_file="arise-source/css/main.css"
+if git diff --cached --name-only | grep -q "$css_file"; then
+    if ! prettier "$css_file" --check --log-level silent; then
+        echo "CSS style validation failed. Changes needed:"
+        prettier "$css_file" | diff "$css_file" -
+        exit 1
+    fi
+fi
+
+#Making sure we don't commit the wrong URL to the wrong branch
+current_branch=$(git symbolic-ref --short HEAD)
+
+PROD_URL="cyberia.robeson.me"
+STAGING_URL="html-staging.d33b4ugcqkd7c3.amplifyapp.com"
+DEV_URL="zippy-passenger.surge.sh"
+GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude=build-surge"
+
+check_and_replace_url() {
+    local search_url=$1
+    local target_url=$2
+    if grep -ril "$search_url" . "$grep_options"; then
+        echo "Replacing $search_url with $target_url"
+        grep -ril "$search_url" . "$grep_options" | while read -r i; do
+            echo "Fixing $i"
+            sed -i "s/$search_url/$target_url/g" "$i"
+        done
+        git add .
+    fi
+}
+
+if [ "$current_branch" = "blog-prod" ]; then
+    check_and_replace_url "$DEV_URL" "$PROD_URL"
+    check_and_replace_url "$STAGING_URL" "$PROD_URL"
+elif [ "$current_branch" = "staging" ]; then
+    check_and_replace_url "$DEV_URL" "$STAGING_URL"
+    check_and_replace_url "$PROD_URL" "$STAGING_URL"
+fi
+
+
+# Run arise build on blog-prod and staging branches
+# So we don't push a broken commit to origin
+if [ "$current_branch" = "blog-prod" ] || [ "$current_branch" = "staging" ]; then
+    # Run arise build
+build_errors=$(yes | ./arise build -f 2>&1 >/dev/null)
+build_status=$?
+
+if [ $build_status -ne 0 ] || [ -n "$build_errors" ]; then
+    [ -n "$build_errors" ] && echo "Build errors: $build_errors"
+    echo "Build failed - commit aborted"
+    exit 1
+fi
+fi
