@@ -3,3 +3,4 @@ arise-source/CNAME
 package-lock.json
 package.json
 node_modules/*
+arise-source/css/.prettierrc
