@@ -13,7 +13,7 @@
     </image>
     <atom:link href="https://cyberia.robeson.me/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Wed, 19 Feb 2025 00:29:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Feb 2025 03:03:13 +0000</lastBuildDate>
         <item>
         <title>Blog, Day 1</title>
         <dc:creator>Ben Robeson</dc:creator>
@@ -55,6 +55,13 @@
         <description>Some of my favorite Star Trek YouTubers.</description>
         <link>https://cyberia.robeson.me/recommendations/recommendations-trek-001/</link>
         <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+        </item>
+        <item>
+        <title>{{title}}</title>
+        <dc:creator>Ben Robeson</dc:creator>
+        <description>Longer title</description>
+        <link>https://cyberia.robeson.me/404/</link>
+        <pubDate></pubDate>
         </item>
         <item>
         <title>How did the transporter chief figure that out?</title>
