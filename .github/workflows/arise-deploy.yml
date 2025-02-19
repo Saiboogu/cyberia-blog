@@ -48,7 +48,13 @@ jobs:
         run: sed -i -E "s/main\.min\.css\?[0-9A-Za-z]*/main.css\?$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8)/gm" arise-source/config/header.html 
 
       - name: Build Arise
-        run: bash arise build
+        id: build
+        run: |
+          build_errors=$(./arise build -f 2>&1 >/dev/null)
+          if [ $? -ne 0 ] || [ -n "$build_errors" ]; then
+            echo "::error::Build failed with errors: $build_errors" 
+            exit 1
+          fi
     
       - name: Push to live branch
         uses: s0/git-publish-subdir-action@develop
