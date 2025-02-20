@@ -13,21 +13,26 @@ fi
 #Making sure we don't commit the wrong URL to the wrong branch
 current_branch=$(git symbolic-ref --short HEAD)
 
-PROD_URL="cyberia.robeson.me"
-STAGING_URL="html-staging.d33b4ugcqkd7c3.amplifyapp.com"
-DEV_URL="zippy-passenger.surge.sh"
+# Load project config
+CONFIG_FILE="tools/urls.conf"
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "Error: Config file not found: $CONFIG_FILE" >&2
+    exit 1
+fi
+
+source "$CONFIG_FILE"
+
 GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude=build-surge"
 
 check_and_replace_url() {
     local search_url=$1
     local target_url=$2
-    if grep -ril "$search_url" . "$grep_options"; then
+    if grep -ril "$search_url" . "$GREP_OPTIONS"; then
         echo "Replacing $search_url with $target_url"
-        grep -ril "$search_url" . "$grep_options" | while read -r i; do
+        grep -ril "$search_url" . "$GREP_OPTIONS" | while read -r i; do
             echo "Fixing $i"
             sed -i "s/$search_url/$target_url/g" "$i"
         done
-        git add .
     fi
 }
 
