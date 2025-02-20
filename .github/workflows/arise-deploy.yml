@@ -44,9 +44,6 @@ jobs:
       - name: Install pandoc
         run: sudo apt-get install -y pandoc
 
-      # - name: Version CSS
-      #   run: sed -i -E "s/main\.css\?[0-9A-Za-z]*/main.css\?$(tr -dc A-Za-z0-9 </dev/urandom | head -c 8)/gm" arise-source/config/header.html 
-
       - name: Build Arise
         id: build
         run: |
@@ -63,9 +60,3 @@ jobs:
           FOLDER: arise-out # The Arise build output location. Don't change this.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Handled automatically -- Don't change this unless you're pushing to a different repo
           MESSAGE: "Commit: ({sha}) {msg}" # Copies commit msg from main to the deploy version branch
-
-      # - name: Cloudflare Purge Cache
-      #   uses: jakejarvis/cloudflare-purge-action@v0.3.0
-      #   env:
-      #     CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-      #     CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}

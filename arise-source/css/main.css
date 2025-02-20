@@ -16,7 +16,7 @@
   --yellow: #fbbd5e;
   /* Fonts */
   font-family: "ToshibaSat 8x14", sans-serif;
-  font-size: 20px;
+  font-size: clamp(12px, 0.8rem, 20px);
   padding: 0.5rem;
 }
 
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://cyberia.robeson.me/fonts/WebPlus_ToshibaSat_8x14.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/WebPlus_ToshibaSat_8x14.woff)
     format("woff");
 }
 @font-face {
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://cyberia.robeson.me/fonts/Web437_ToshibaSat_8x8.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/Web437_ToshibaSat_8x8.woff)
     format("woff");
 }
 
@@ -218,6 +218,19 @@ tr:hover {
   display: block;
   font-size: 13px;
   padding: 0.5rem;
+  width: fit-content;
+}
+.error-container {
+  padding: 2rem;
+}
+.error {
+  background-color: var(--red);
+  border: 0.4rem solid var(--red);
+  box-shadow: 0.5rem 0.5rem 0 #000;
+  color: var(--bgblack);
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   width: fit-content;
 }
 .error pre {
