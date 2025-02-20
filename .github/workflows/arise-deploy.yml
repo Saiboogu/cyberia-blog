@@ -37,7 +37,7 @@ jobs:
       - name: Build Arise
         id: build
         run: |
-          if ! bash arise build -f; then
+          if ! bash arise build; then
             echo "::error::Build failed"
             exit 1
           fi
