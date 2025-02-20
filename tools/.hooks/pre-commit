@@ -33,7 +33,6 @@ check_and_replace_url() {
             echo "Fixing $i"
             sed -i "s/$search_url/$target_url/g" "$i"
         done
-        git add .
     fi
 }
 
