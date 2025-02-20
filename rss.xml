@@ -3,64 +3,64 @@
   <channel>
     <title>Cyberia</title>
     <description>A personal blog. Tech, Trek (scifi overall), Random thoughts. We&#39;ll see where it goes.</description>
-    <link>https://zippy-passenger.surge.sh</link>
+    <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com</link>
     <language>en</language>
     <generator>Arise</generator>
     <image>
-      <url>https://zippy-passenger.surge.sh/favicon/favicon.ico</url>
+      <url>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/favicon/favicon.ico</url>
       <title>Cyberia</title>
-      <link>https://zippy-passenger.surge.sh</link>
+      <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com</link>
     </image>
-    <atom:link href="https://zippy-passenger.surge.sh/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/rss.xml" rel="self" type="application/rss+xml"/>
         <ttl>60</ttl>
-<lastBuildDate>Thu, 20 Feb 2025 02:57:09 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Feb 2025 03:09:35 +0000</lastBuildDate>
         <item>
         <title>Blog, Day 1</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>A new blog, day one</description>
-        <link>https://zippy-passenger.surge.sh/posts/day-one/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/posts/day-one/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>The Blog</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Blog - So far</description>
-        <link>https://zippy-passenger.surge.sh/posts/the-blog/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/posts/the-blog/</link>
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>We Have Comments</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Blog improvements - Adding self hosted comments.</description>
-        <link>https://zippy-passenger.surge.sh/posts/we-have-comments/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/posts/we-have-comments/</link>
         <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>New Logo!</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>We have a new logo - such as it is. My first use of Inkscape.</description>
-        <link>https://zippy-passenger.surge.sh/posts/new-logo/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/posts/new-logo/</link>
         <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Privacy Information</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Privacy details for the website.</description>
-        <link>https://zippy-passenger.surge.sh/privacy/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/privacy/</link>
         <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>Irreverent Star Trek Reviewers</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Some of my favorite Star Trek YouTubers.</description>
-        <link>https://zippy-passenger.surge.sh/recommendations/recommendations-trek-001/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/recommendations/recommendations-trek-001/</link>
         <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
         </item>
         <item>
         <title>How did the transporter chief figure that out?</title>
         <dc:creator>Ben Robeson</dc:creator>
         <description>Transporter operators as video game players.</description>
-        <link>https://zippy-passenger.surge.sh/shower-thoughts/001-transporter-problems/</link>
+        <link>https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/shower-thoughts/001-transporter-problems/</link>
         <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
         </item>
 </channel>
