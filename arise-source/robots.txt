@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /config/*
 
 
-Sitemap: https://zippy-passenger.surge.sh/sitemap.xml
+Sitemap: https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/sitemap.xml
