@@ -226,12 +226,11 @@ tr:hover {
 .error {
   background-color: var(--red);
   border: 0.4rem solid var(--red);
-  box-shadow:
-    0.5rem 0.5rem 0 #000;
+  box-shadow: 0.5rem 0.5rem 0 #000;
   color: var(--bgblack);
   display: block;
   font-size: 1.2rem;
-  padding: 1rem 1.5rem 1rem 1.5rem;  
+  padding: 1rem 1.5rem 1rem 1.5rem;
   width: fit-content;
 }
 .error pre {
