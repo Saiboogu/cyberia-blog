@@ -42,7 +42,7 @@ jobs:
             exit 1
           fi
 
-        - name: Replace URLs
+      - name: Replace URLs
         run: |
           # Source the config file
           source tools/urls.conf
