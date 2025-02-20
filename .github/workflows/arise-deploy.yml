@@ -42,20 +42,20 @@ jobs:
             exit 1
           fi
 
-          - name: Replace URLs
-          run: |
-            # Source the config file
-            source tools/urls.conf
-            
-            # Create array of all URLs from config
-            OLD_URLS=("$PROD_URL" "$STAGING_URL" "$DEV_URL")
-            
-            # Replace all URLs except the target one
-            for url in "${OLD_URLS[@]}"; do
-              if [ "$url" != "${{ env.SITE_URL }}" ]; then
-                find arise-out -type f -exec sed -i "s|$url|${{ env.SITE_URL }}|g" {} +
-              fi
-            done
+        - name: Replace URLs
+        run: |
+          # Source the config file
+          source tools/urls.conf
+          
+          # Create array of all URLs from config
+          OLD_URLS=("$PROD_URL" "$STAGING_URL" "$DEV_URL")
+          
+          # Replace all URLs except the target one
+          for url in "${OLD_URLS[@]}"; do
+            if [ "$url" != "${{ env.SITE_URL }}" ]; then
+              find arise-out -type f -exec sed -i "s|$url|${{ env.SITE_URL }}|g" {} +
+            fi
+          done
 
       - name: Push to live branch
         uses: s0/git-publish-subdir-action@develop
