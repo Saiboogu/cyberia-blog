@@ -13,8 +13,8 @@ toc:: "false"
 rss_hide:: "true"
 comments:: "false"
 ---- END ARISE \\ DO NOT MODIFY THIS LINE ---->
-
-<h1 class="error"><pre>
+<div class="error-container">
+<div class="error"><pre>
 ███████████████████████████████████████████████████████████████████████████
 █▌                                                                       ▐█
 █▌                                             ██╗  ██╗ ██████╗ ██╗  ██╗ ▐█
@@ -39,5 +39,5 @@ comments:: "false"
 █▌ ╚═╝      ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚═════╝                           ▐█
 █▌                                                                       ▐█
 ███████████████████████████████████████████████████████████████████████████
-</pre></h1>
-
+</pre></div>
+</div>

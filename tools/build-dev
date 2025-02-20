@@ -40,5 +40,7 @@ replace_url "$PROD_URL"
 replace_url "$STAGING_URL"
 # Make sure the CNAME is set
 echo "$DEV_URL" > arise-out/CNAME
+# Copy the 404 page to root like surge needs
+cp arise-out/404/index.html arise-out/404.html
 # Deploy
 surge arise-out/
