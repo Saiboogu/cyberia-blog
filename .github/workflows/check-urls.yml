@@ -1,0 +1,24 @@
+name: Check URLs Configuration
+
+on:
+  push:
+    paths: ['tools/urls.conf']
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate URLs
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check URLs
+        run: |
+          source tools/urls.conf
+          expected_prod="cyberia.robeson.me"
+          expected_staging="html-staging.d33b4ugcqkd7c3.amplifyapp.com"
+          expected_dev="zippy-passenger.surge.sh"
+          
+          [[ "$PROD_URL" == "$expected_prod" ]] || { echo "Invalid PROD_URL"; exit 1; }
+          [[ "$STAGING_URL" == "$expected_staging" ]] || { echo "Invalid STAGING_URL"; exit 1; }
+          [[ "$DEV_URL" == "$expected_dev" ]] || { echo "Invalid DEV_URL"; exit 1; }
