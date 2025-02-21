@@ -7,7 +7,7 @@
 
 # Get list of directories in arise-source for section choices
 root_dir="New Page"
-section_dirs=($(find arise-source/ -type f -iname index.md -exec grep -il 'toc:: "true"' {} \; | cut -d'/' -f2 | sort))
+mapfile -t section_dirs < <(find arise-source/ -type f -iname index.md -exec grep -il 'toc:: "true"' {} \; | cut -d'/' -f2 | sort)
 directories=("$root_dir" "${section_dirs[@]}")
 max=${#directories[@]}
 
