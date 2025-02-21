@@ -20,6 +20,8 @@ jobs:
 
       - name: ShellCheck
         uses: ludeeus/action-shellcheck@2.0.0
+        env:
+          SHELLCHECK_OPTS: -x
         with:
           scandir: ./tools
           ignore_paths: ./tools/.hooks
