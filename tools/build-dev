@@ -1,14 +1,23 @@
 #!/bin/bash
 
-# Load project config
-CONFIG_FILE="urls.conf"
+# Load deployment config
+CONFIG_FILE="tools/urls.conf"
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "Error: Config file not found: $CONFIG_FILE" >&2
     exit 1
 fi
 
+# shellcheck source=tools/urls.conf
 source "$CONFIG_FILE"
 
+# Check for duplicate URLs
+if [ "$PROD_URL" = "$STAGING_URL" ] || [ "$PROD_URL" = "$DEV_URL" ] || [ "$STAGING_URL" = "$DEV_URL" ]; then
+    echo "Error: Duplicate URLs found in config" >&2
+    echo "PROD_URL: $PROD_URL" >&2
+    echo "STAGING_URL: $STAGING_URL" >&2
+    echo "DEV_URL: $DEV_URL" >&2
+    exit 1
+fi
 
 replace_url() {
     local search_url=$1
@@ -23,9 +32,9 @@ replace_url() {
         exit 1
     fi
 
-    if grep -ril "$search_url" $BUILD_DIR; then
+    if grep -ril "$search_url" "$BUILD_DIR"; then
         echo "Replacing $search_url with $DEV_URL"
-        grep -ril "$search_url" $BUILD_DIR | while read -r file; do
+        grep -ril "$search_url" "$BUILD_DIR" | while read -r file; do
             sed -i "s/$search_url/$DEV_URL/g" "$file"
         done
     fi
