@@ -6,9 +6,10 @@
 # Usage: ./newpost "Post Title"
 
 # Get list of directories in arise-source for section choices
-directories=$(find arise-source/ -maxdepth 1 -type d -not -name arise-source -not -wholename arise-source/config -not -wholename arise-source/privacy | awk -F'/' '{print $2}')
-options=("$directories")
-max=${#options[@]}
+root_dir="New Page"
+mapfile -t section_dirs < <(find arise-source/ -type f -iname index.md -exec grep -il 'toc:: "true"' {} \; | cut -d'/' -f2 | sort)
+directories=("$root_dir" "${section_dirs[@]}")
+max=${#directories[@]}
 
 # Print the big pretty logo since this is our tool and I'm having fun
 cat << 'EOF'
@@ -52,13 +53,13 @@ while true; do
     # Prompt user to select a section for the new post
     while true; do
         echo "Please select from the following sections:"
-        for i in "${!options[@]}"; do
-        echo "$((i + 1)). ${options[i]}"
+        for i in "${!directories[@]}"; do
+            echo "$((i+1)). ${directories[$i]}"
         done
         read -r -p "Enter your choice (1-$max): " -n1 choice
         echo
         if [[ "$choice" =~ ^[0-9]+$ ]] && [ "$choice" -ge 1 ] && [ "$choice" -le "$max" ]; then
-            dir=${options[choice - 1]}
+            dir=${directories[choice - 1]}
             break
         else
             printf 'Invalid input. Please enter a number between 1 and %s.\n\n' "$max"
@@ -85,12 +86,19 @@ echo "copying template to $dir/$post_slug ...."
 echo ""
 
 # Create new post folder and copy template files
-cp -r arise-source/config/new-post-template arise-source/"\"$dir\""/"\"$post_slug\""
-printf "Setting date and title in index.md .....\n"
-
-# Set date and title in post markdown file
-sed -i arise-source/"$dir"/"$post_slug"/index.md -e "s/{{title}}/""$post_title""/g"
-sed -i arise-source/"$dir"/"$post_slug"/index.md -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
+if [ "$dir" = "New Page" ]; then
+    mkdir -p "arise-source/$post_slug"
+    cp -r arise-source/config/new-post-template/* "arise-source/$post_slug/"
+    # Update sed commands for root-level posts
+    sed -i "arise-source/$post_slug/index.md" -e "s/{{title}}/""$post_title""/g"
+    sed -i "arise-source/$post_slug/index.md" -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
+else
+    mkdir -p "arise-source/$dir/$post_slug"
+    cp -r arise-source/config/new-post-template/* "arise-source/$dir/$post_slug/"
+    # Update sed commands for section posts
+    sed -i "arise-source/$dir/$post_slug/index.md" -e "s/{{title}}/""$post_title""/g"
+    sed -i "arise-source/$dir/$post_slug/index.md" -e "s/{{date}}/$(date '+%Y-%m-%d')/g"
+fi
 
 printf "Done!\n\n"
 

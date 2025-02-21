@@ -20,16 +20,15 @@ if [ ! -f "$CONFIG_FILE" ]; then
     exit 1
 fi
 
+# shellcheck source=tools/urls.conf
 source "$CONFIG_FILE"
-
-GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude=build-surge"
 
 check_and_replace_url() {
     local search_url=$1
     local target_url=$2
-    if grep -ril "$search_url" . "$GREP_OPTIONS"; then
+    if grep -ril --exclude-dir=arise-out --exclude=CNAME --exclude-dir=tools "$search_url" .; then
         echo "Replacing $search_url with $target_url"
-        grep -ril "$search_url" . "$GREP_OPTIONS" | while read -r i; do
+        grep -ril --exclude-dir=arise-out --exclude=CNAME --exclude-dir=tools "$search_url" . | while read -r i; do
             echo "Fixing $i"
             sed -i "s/$search_url/$target_url/g" "$i"
         done

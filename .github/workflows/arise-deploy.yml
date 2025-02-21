@@ -24,13 +24,16 @@ jobs:
 
       - name: Set deployment variables
         run: |
+          # Source the config file
+            source tools/urls.conf
+
           if [[ $GITHUB_REF == 'refs/heads/blog-prod' ]]; then
             echo "OUTPUT_BRANCH=html" >> "$GITHUB_ENV"
-            echo "SITE_URL=cyberia.robeson.me" >> "$GITHUB_ENV"
+            echo "SITE_URL=$PROD_URL" >> "$GITHUB_ENV"
             echo "Workflow running from blog-prod branch. Will deploy to production."
           else
             echo "OUTPUT_BRANCH=html-staging" >> "$GITHUB_ENV"
-            echo "SITE_URL=html-staging.d33b4ugcqkd7c3.amplifyapp.com" >> "$GITHUB_ENV"
+            echo "SITE_URL=$STAGING_URL" >> "$GITHUB_ENV"
             echo "Workflow running from staging branch. Will deploy to staging."
           fi
 
