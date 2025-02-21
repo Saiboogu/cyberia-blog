@@ -1,21 +1,24 @@
-name: ShellCheck tools
-
+name: ShellCheck
+permissions:
+  contents: read
 on:
   push:
-    paths:
-      - 'tools/**'
+    paths: ['tools/**']
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   shellcheck:
-    name: Shellcheck
     runs-on: ubuntu-latest
+    name: Shellcheck Tools
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: git-checkout
+        uses: actions/checkout@v4
 
-      - name: Install ShellCheck
-        run: sudo apt-get install -y shellcheck
-
-      - name: Run ShellCheck
-        run: |
-          find tools/ -type f -exec shellcheck {} \;
+      - name: ShellCheck
+        uses: ludeeus/action-shellcheck@2.0.0
+        with:
+          scandir: ./tools
