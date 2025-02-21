@@ -20,6 +20,7 @@ if [ ! -f "$CONFIG_FILE" ]; then
     exit 1
 fi
 
+# shellcheck source=tools/urls.conf
 source "$CONFIG_FILE"
 
 check_and_replace_url() {
