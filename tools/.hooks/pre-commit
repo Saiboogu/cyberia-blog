@@ -22,7 +22,7 @@ fi
 
 source "$CONFIG_FILE"
 
-GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude=build-surge"
+GREP_OPTIONS="--exclude-dir=arise-out --exclude=CNAME --exclude-dir=tools"
 
 check_and_replace_url() {
     local search_url=$1
