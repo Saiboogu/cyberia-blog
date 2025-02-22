@@ -26,14 +26,15 @@ source "$CONFIG_FILE"
 check_and_replace_url() {
     local search_url=$1
     local target_url=$2
-    if grep -ril --exclude-dir=.github --exclude-dir=arise-out --exclude=CNAME --exclude=arise.conf --exclude-dir=tools "$search_url" .; then
+    if find arise-source/ -type f \( -iname "*.md" -o -iname "*.css" \) -exec grep -l "$search_url" \;; then
         echo "Replacing $search_url with $target_url"
-        grep -ril --exclude-dir=.github --exclude-dir=arise-out --exclude=CNAME --exclude=arise.conf --exclude-dir=tools "$search_url" . | while read -r i; do
-            echo "Fixing $i"
-            sed -i "s/$search_url/$target_url/g" "$i"
+        find arise-source/ -type f \( -iname "*.md" -o -iname "*.css" \) -exec grep -l "$search_url" \; | while read -r file; do
+            echo "Fixing $file"
+            sed -i "s/$search_url/$target_url/g" "$file"
         done
     fi
 }
+
 
 if [ "$current_branch" = "blog-prod" ]; then
     check_and_replace_url "$DEV_URL" "$PROD_URL"
