@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://cyberia.robeson.me/fonts/WebPlus_ToshibaSat_8x14.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/WebPlus_ToshibaSat_8x14.woff)
     format("woff");
 }
 @font-face {
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://cyberia.robeson.me/fonts/Web437_ToshibaSat_8x8.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/Web437_ToshibaSat_8x8.woff)
     format("woff");
 }
 
@@ -50,11 +50,11 @@ body {
 ::selection {
   background-color: var(--red);
 }
-ul {
+.topbar ul {
   margin: 0;
   padding: 0.2rem;
 }
-ul li {
+.topbar ul li {
   display: inline;
   padding: 0;
 }
@@ -138,6 +138,17 @@ h1 {
   padding: 0.5rem;
   width: fit-content;
 }
+ul {
+  list-style-type: none;
+}
+ul li {
+  line-height: 1.2rem;
+}
+ul li::before {
+  content: "► ";
+  color: var(--green);
+  margin-left: -1rem;
+}
 @media screen and (max-width: 500px) {
   h1 {
     max-width: 100%;
@@ -192,6 +203,7 @@ tr:hover {
   padding: 0.2rem 0 0.2rem 0;
   text-align: center;
 }
+
 .topbar a {
   color: var(--yellow);
   font-size: 0.9rem;
@@ -200,13 +212,16 @@ tr:hover {
   text-transform: uppercase;
   white-space: nowrap;
 }
-.topbar a::before {
-  color: var(--bgblack);
-  content: "[";
+.topbar-li {
+  margin: 0.3rem;
 }
-.topbar a::after {
+.topbar-li:after {
   color: var(--bgblack);
   content: "]";
+}
+.topbar-li::before {
+  color: var(--bgblack);
+  content: "[";
 }
 .dateline {
   background-color: var(--darkgrey);
@@ -264,13 +279,7 @@ tr:hover {
 .footer a {
   color: var(--orange);
 }
-/* Disable the ::before and ::after pseudo-elements in the footer */
-.footer a::before {
-  content: "";
-}
-.footer a::after {
-  content: "";
-}
+
 /* Table of Contents */
 .arise-toc-tr a {
   padding: 0.2rem;
@@ -323,11 +332,11 @@ tr:hover {
 }
 .arise-toc-published-date::before {
   color: var(--green);
-  content: "P:";
+  content: "P: ";
 }
 .arise-toc-modified-date::before {
   color: var(--darkblue);
-  content: "M:";
+  content: "M: ";
 }
 .arise-toc-published-date {
   margin-top: -0.5rem;
@@ -347,6 +356,7 @@ tr:hover {
   color: var(--yellow);
   font-size: 1.2rem;
   padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 .comments svg {
   vertical-align: middle;
@@ -380,9 +390,6 @@ tr:hover {
     display: none;
 
     /* Hide the description on small screens */
-  }
-  .arise-toc-modified-date {
-    display: none;
   }
 }
 @media screen and (min-width: 601px) {
