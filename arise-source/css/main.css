@@ -175,8 +175,8 @@ ul li {
   margin-bottom: 0.2rem;
 }
 ul li::before {
-  content: "► ";
   color: var(--green);
+  content: "► ";
   margin-left: -1rem;
 }
 @media screen and (max-width: 500px) {
@@ -333,8 +333,8 @@ tr:hover {
   border: 0.4rem solid var(--darkgrey);
   box-shadow: inset 0 0 0 2px var(--lightblue);
   display: block;
-  width: 100%;
   padding: 0.6rem;
+  width: 100%;
 }
 .arise-toc-td-date {
   border-color: var(--yellow);
@@ -385,8 +385,8 @@ tr:hover {
     inset 0 0 0 0.2rem var(--lightblue);
   color: var(--yellow);
   font-size: 1.2rem;
-  padding: 0.5rem;
   margin-bottom: 1rem;
+  padding: 0.5rem;
   text-align: center;
 }
 .comments svg {
@@ -474,11 +474,6 @@ tr:hover {
 .cmt-mod {
   background-color: var(--bgblack);
   color: var(--red);
-  display: block;
-  padding-left: 0.6rem;
-  padding-right: 0.5rem;
-  width: fit-content;
-
   /* pixeled round corners from https://pixelcorners.lukeb.co.uk/?radius=2&multiplier=1 */
   clip-path: polygon(
     0px calc(100% - 6px),
@@ -502,6 +497,10 @@ tr:hover {
     3px 6px,
     0px 6px
   );
+  display: block;
+  padding-left: 0.6rem;
+  padding-right: 0.5rem;
+  width: fit-content;
 }
 .cmt-date {
   color: var(--white);
