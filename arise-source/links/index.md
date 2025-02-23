@@ -20,8 +20,9 @@ process_markdown:: "false"
 <p>Just a collection of interesting, useful, or cool pages I've found.</p>
 
 
-
-<h2> Long Format Video Channels -- Technology</h2>
+<h2>Video</h2>
+<p>Lots of channels to link, may as well give them a section of their own.</p>
+<h3> Long Format Video Channels -- Technology</h3>
 <p>Long form content, typically 20-40 minutes, with some leaning towards an hour or more.</p>
 <ul>
     <li><a href="https://www.youtube.com/@BobbyBroccoli">BobbyBroccoli</a></li>
@@ -29,12 +30,12 @@ process_markdown:: "false"
     <li><a href="https://www.youtube.com/@theserialport">The Serial Port</a></li>
     <ul><li>The history of computing, especially early communications and the internet. Museum style content - collecting, investigating, and restoring old servers, building retro BBSes and ISPs, and interviewing engineers who were part of creating this equipment.</li></ul>
     <li><a href="https://www.youtube.com/@MichaelMJD">Michael MJD</a></li>
-    <ul><li>Vintage software and operating systems. Unlike The Serial Port, the focus is on 80s-00s software, and not only running it on appropriate vintage hardware, but also cramming it into oddball places -- Like Mac OS 9 on a Wii?</li></ul>
+    <ul><li>Vintage software and operating systems. Unlike The Serial Port, the focus is on 80s-00s software, and not only running it on appropriate vintage hardware but also cramming it into oddball places -- Like Mac OS 9 on a Wii?</li></ul>
     <li><a href="https://www.youtube.com/@TechnologyConnections">Technology Connections</a></li>
     <ul><li>Deep, deep dives into how common but underappreciated modern technologies work. Refrigerators, dishwashers, stove controls, turn signal blinkers, Christmas lights - You never know what you'll get.</li></ul>
 </ul>
 
-<h2>Disaster Channels</h2>
+<h3>Disaster Channels</h3>
 <p>A category of their own, channels that offer tasteful, not sensationalized explanations of natural disasters, industrial accidents, train crashes, etc. Lots of channels do this, but I've got a short list of channels with a good mix of accuracy, respect, and some humor. One qualifing feature that I noticed a while after collecting this list -- If any of these channels covers an event I've already watched on another channel, I'm still going to watch it again for the unique perspective and potential fresh details.</p>
 
 <ul>
@@ -48,7 +49,7 @@ process_markdown:: "false"
         <ul><li>A federal agency that has no business producing content this good. 10-20 minute videos deep diving into chemical safety incidents that the USCSB has investigated. A nicely narrated animated segment showing the event blow-by-blow, and then a series of clips from various experts weighing in on what went wrong, and what they had to do to fix it.</li></ul>
 </ul>
 
-<h2>Industry Details</h2>
+<h3>Industry Details</h3>
 <p>"How things work" for various fields that I have nothing to do with, but find interesting sometimes. Strong overlap with the above, but they get there own category because of the videos they each make on general background information, as well as specific incidents.</p>
 <ul>
     <li><a href="https://www.youtube.com/@MentourPilot">Mentour Pilot</a></li>
