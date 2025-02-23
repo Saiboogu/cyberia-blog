@@ -133,16 +133,46 @@ h1 {
     inset 0 0 0 0.2rem var(--lightblue);
   color: var(--yellow);
   display: block;
+  font-size: 1.5rem;
+  max-width: 46%;
+  padding: 0.5rem;
+  width: fit-content;
+}
+h2 {
+  background-color: var(--darkblue);
+  border: 0.4rem solid var(--darkblue);
+  box-shadow:
+    0.5rem 0.5rem 0 #000,
+    inset 0 0 0 0.2rem var(--lightblue);
+  color: var(--yellow);
+  display: block;
   font-size: 1.2rem;
+  margin-left: 1rem;
+  max-width: 46%;
+  padding: 0.5rem;
+  width: fit-content;
+}
+h3 {
+  background-color: var(--darkblue);
+  border: 0.4rem solid var(--darkblue);
+  box-shadow:
+    0.5rem 0.5rem 0 #000,
+    inset 0 0 0 0.2rem var(--lightblue);
+  color: var(--yellow);
+  display: block;
+  font-size: 1rem;
+  margin-left: 2rem;
   max-width: 46%;
   padding: 0.5rem;
   width: fit-content;
 }
 ul {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 ul li {
   line-height: 1.2rem;
+  margin-bottom: 0.2rem;
 }
 ul li::before {
   content: "► ";
