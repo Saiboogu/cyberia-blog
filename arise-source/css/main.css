@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/fonts/WebPlus_ToshibaSat_8x14.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/WebPlus_ToshibaSat_8x14.woff)
     format("woff");
 }
 @font-face {
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/fonts/Web437_ToshibaSat_8x8.woff)
+  src: url(https://zippy-passenger.surge.sh/fonts/Web437_ToshibaSat_8x8.woff)
     format("woff");
 }
 
@@ -387,6 +387,7 @@ tr:hover {
   font-size: 1.2rem;
   padding: 0.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 .comments svg {
   vertical-align: middle;
@@ -396,11 +397,6 @@ tr:hover {
   margin-left: -1rem;
   margin-right: 1rem;
   transform: scaleX(-1);
-}
-.comments h2 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
 /* Main blog media queries */
