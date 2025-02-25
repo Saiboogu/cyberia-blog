@@ -106,15 +106,6 @@ hr {
 em {
   color: var(--orange);
 }
-/* Don't even know what this is for */
-/* Disabling for now
- #endline {
-  color: var(--yellow);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  max-width: 300px;
-} */
 a {
   color: var(--yellow);
   text-decoration: none;
@@ -575,13 +566,11 @@ button {
   }
   .cmt-message::before {
     font-size: 0.9rem;
-    min-height: 3rem;
   }
   .cmt-message p {
     font-size: 0.9rem;
-    min-height: 3rem;
+    min-height: 4rem;
   }
-
   button {
     font-size: 0.5rem;
   }
