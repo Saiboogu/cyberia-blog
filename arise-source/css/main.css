@@ -15,7 +15,7 @@
   --white: #d7f9f8;
   --yellow: #fbbd5e;
   /* Fonts */
-  font-family: "ToshibaSat 8x14", sans-serif;
+  font-family: "ToshibaSat 8x14", "sans serif";
   font-size: clamp(12px, 0.8rem, 20px);
   padding: 0.5rem;
 }
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://zippy-passenger.surge.sh/fonts/WebPlus_ToshibaSat_8x14.woff)
+  src: url(https://cyberia.robeson.me/fonts/WebPlus_ToshibaSat_8x14.woff)
     format("woff");
 }
 @font-face {
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
 
-  src: url(https://zippy-passenger.surge.sh/fonts/Web437_ToshibaSat_8x8.woff)
+  src: url(https://cyberia.robeson.me/fonts/Web437_ToshibaSat_8x8.woff)
     format("woff");
 }
 
@@ -83,10 +83,10 @@ code {
 }
 pre {
   overflow-x: auto;
-  white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
+  white-space: pre-wrap;
   word-wrap: break-word;
 }
 blockquote {
@@ -342,7 +342,7 @@ tr:hover {
   border-width: 0;
   display: block;
   text-align: left;
-  vertical-align: top;
+  /* vertical-align: top; */
   white-space: nowrap;
 }
 .arise-toc-td-title {
@@ -552,28 +552,36 @@ button {
   .dark div,
   .dark p,
   .cmt-mod {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   .cmt-author-line {
-    height: 6em;
+    height: 5em;
+    max-width: 12em;
+    display: block;
   }
   .cmt-author,
   .cmt-mod {
+    line-height: 1.7em;
     float: inline-start;
-    line-height: 0.5em;
+    padding: 0.2rem 0.2rem 0 0.2rem;
   }
   .cmt-mod {
-    float: inline-start;
-    scale: 60%;
+    float: inline-end;
+    scale: 90%;
   }
   .cmt-date {
     line-height: 0.5rem;
+    padding: 0.2rem 0.2rem 0 0.2rem;
   }
-  .cmt-message p,
   .cmt-message::before {
-    font-size: 0.75rem;
-    min-height: 4rem;
+    font-size: 0.9rem;
+    min-height: 3rem;
   }
+  .cmt-message p {
+    font-size: 0.9rem;
+    min-height: 3rem;
+  }
+
   button {
     font-size: 0.5rem;
   }
