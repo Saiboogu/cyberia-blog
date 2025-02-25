@@ -294,7 +294,7 @@ tr:hover {
 .footer p,
 .footer span,
 .footer a {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   padding: 0.1rem;
 }
 .footer a {
@@ -579,10 +579,11 @@ button {
   .dark div,
   .dark p,
   .cmt-mod {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .cmt-author-line {
     height: auto;
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
   }
   .cmt-author {
     float: inline-start;
@@ -593,12 +594,12 @@ button {
   .cmt-mod {
     float: inline-start;
     padding: 0.2rem;
-    scale: 60%;
+    scale: 90%;
   }
   .cmt-message p {
-    min-height: 3rem;
+    min-height: 2rem;
   }
   button {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
