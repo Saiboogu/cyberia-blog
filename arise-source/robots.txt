@@ -1,5 +1,8 @@
 User-agent: * 
+Disallow: /fonts/*
+Disallow: /images/*
+Disallow: /css/*
+Disallow: /favicon/*
 Disallow: /config/*
-
 
 Sitemap: https://cyberia.robeson.me/sitemap.xml
