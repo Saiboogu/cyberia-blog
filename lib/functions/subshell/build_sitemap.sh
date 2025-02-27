@@ -21,8 +21,22 @@ cd $(dirname $1)
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sitemap
 echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> $sitemap
 
+# Define excluded directories array
+exclude_dirs=(
+    ./config/new-post-template
+    ./config
+    ./404 
+    ./fonts
+    ./images
+    ./css
+    ./favicon
+)
+
+# Build find exclusion pattern
+exclude_pattern=$(printf " -not -path %s" "${exclude_dirs[@]}")
+
 # List every directory in our sitemap (except config). This makes up our sitemap since Arise is built to use directory roots as page URLs
-find . -type d -not \( -path ./config -prune \) | while read fname; do
+find . -type d $exclude_pattern | while read -r fname; do
         
         # Rewrite the local path from the find command as the live web URL as the <loc> tag for the sitemap standard
         echo -e '<url>\n<loc>'"$base_url"'/'"$(echo $fname | sed -n -e 's|\.\/||p' | sed '/^$/!s/$/\//')"'</loc>' >> $sitemap
