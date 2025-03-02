@@ -19,7 +19,9 @@ if [[ $is_toc == "true" ]]; then
         build_toc $page
 elif [[ $process_markdown == "false" ]]; then
         build_header index.html
+        echo "<main>" >> index.html
         cat $page | sed -e '1,/END ARISE/d' | cat >> index.html
+        echo "</main>" >> index.html
         if [[ $comments == "true" ]]; then
                 build_comments index.html
         fi
