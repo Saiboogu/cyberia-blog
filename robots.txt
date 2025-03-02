@@ -1,5 +1,8 @@
 User-agent: * 
+Disallow: /fonts/*
+Disallow: /images/*
+Disallow: /css/*
+Disallow: /favicon/*
 Disallow: /config/*
-
 
 Sitemap: https://html-staging.d33b4ugcqkd7c3.amplifyapp.com/sitemap.xml
